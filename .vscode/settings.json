@@ -1,7 +1,0 @@
-{
-    "C_Cpp.default.compilerPath": "C:\\msys64\\mingw64\\bin\\clang++.exe",
-    "files.associations": {
-        "iostream": "cpp",
-        "ostream": "cpp"
-    }
-}
