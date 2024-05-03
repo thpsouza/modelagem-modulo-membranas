@@ -1,0 +1,6 @@
+#ifndef CODIGO_GEOMETRIA_H
+#define CODIGO_GEOMETRIA_H
+
+
+
+#endif //CODIGO_GEOMETRIA_H
