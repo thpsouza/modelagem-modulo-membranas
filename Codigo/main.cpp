@@ -1,7 +1,6 @@
-//#include "Geometria/geometria.h"
-//#include "Mistura/especies.h"
-#include "Geometria/geometria.cpp"
-#include "Mistura/especies.cpp"
+#include "Geometria/geometria.h"
+#include "Mistura/especies.h"
+#include "Gerais/base.h"
 #include <iostream>
 
 using namespace std;

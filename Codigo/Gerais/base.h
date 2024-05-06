@@ -8,6 +8,7 @@ public:
     // Construtores
     Base();
     Base(double x);
+
     // Modificadores
     double getValue() const;
     void setValue(double newValue);

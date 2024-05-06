@@ -1,10 +1,7 @@
 #include "base.h"
 
 // Construtores
-Base::Base() {
-}
-Base::Base(double x) {
-    value = x;
+Base::Base(double x):value(x) {
 }
 
 // Modificadores

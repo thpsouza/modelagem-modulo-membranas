@@ -1,4 +1,5 @@
-//#include "especies.h"
+#include "../Gerais/base.h"
+#include "especies.h"
 #include <iostream>
 
 using namespace std;
