@@ -9308,7 +9308,7 @@
 					"_parent": {
 						"$ref": "AAAAAAGPPibMyXk0B3c="
 					},
-					"name": "ClassDiagram1",
+					"name": "Mistura",
 					"ownedViews": [
 						{
 							"_type": "UMLClassView",
@@ -11857,6 +11857,106 @@
 							"headQualifiersCompartment": {
 								"$ref": "AAAAAAGPPrLPAAFm/oo="
 							}
+						},
+						{
+							"_type": "UMLTextBoxView",
+							"_id": "AAAAAAGPTd/WGXNGCww=",
+							"_parent": {
+								"$ref": "AAAAAAGPPibMyXk1Gng="
+							},
+							"font": "Arial;13;0",
+							"left": 40,
+							"top": 376,
+							"width": 74.314453125,
+							"height": 51,
+							"text": "Inicializado já com uma M.A"
+						},
+						{
+							"_type": "UMLNoteLinkView",
+							"_id": "AAAAAAGPTeADP3YqyI4=",
+							"_parent": {
+								"$ref": "AAAAAAGPPibMyXk1Gng="
+							},
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAGPPk5kQ5H/EMM="
+							},
+							"tail": {
+								"$ref": "AAAAAAGPTd/WGXNGCww="
+							},
+							"lineStyle": 1,
+							"points": "102:375;122:354"
+						},
+						{
+							"_type": "UMLTextBoxView",
+							"_id": "AAAAAAGPTeAvSnifwfc=",
+							"_parent": {
+								"$ref": "AAAAAAGPPibMyXk1Gng="
+							},
+							"font": "Arial;13;0",
+							"left": 560,
+							"top": 176,
+							"width": 104,
+							"height": 77,
+							"text": "Calcular MM com base nos átomos que compõem a molécula"
+						},
+						{
+							"_type": "UMLNoteLinkView",
+							"_id": "AAAAAAGPTeEETIMUOZ8=",
+							"_parent": {
+								"$ref": "AAAAAAGPPibMyXk1Gng="
+							},
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAGPTeAvSnifwfc="
+							},
+							"tail": {
+								"$ref": "AAAAAAGPPk5K5pGlP8w="
+							},
+							"lineStyle": 1,
+							"points": "525:263;559:244"
+						},
+						{
+							"_type": "UMLTextBoxView",
+							"_id": "AAAAAAGPTeEXEoOnnzo=",
+							"_parent": {
+								"$ref": "AAAAAAGPPibMyXk1Gng="
+							},
+							"font": "Arial;13;0",
+							"left": 536,
+							"top": 400,
+							"width": 112,
+							"height": 64,
+							"text": "Mapear componente e fracao na mistura (por indice)"
+						},
+						{
+							"_type": "UMLNoteLinkView",
+							"_id": "AAAAAAGPTeGb6ItUihk=",
+							"_parent": {
+								"$ref": "AAAAAAGPPibMyXk1Gng="
+							},
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAGPTeEXEoOnnzo="
+							},
+							"tail": {
+								"$ref": "AAAAAAGPPk0PxY5aqGI="
+							},
+							"lineStyle": 1,
+							"points": "514:462;535:454"
+						},
+						{
+							"_type": "UMLTextBoxView",
+							"_id": "AAAAAAGPTeVjD5v1+ew=",
+							"_parent": {
+								"$ref": "AAAAAAGPPibMyXk1Gng="
+							},
+							"font": "Arial;13;0",
+							"left": 96,
+							"top": 488,
+							"width": 160,
+							"height": 136,
+							"text": "DUVIDAS:\n\n- Unidades?\n\n- Considerar interações moleculares?\n\n- Considerar estado da mistura?"
 						}
 					]
 				},
