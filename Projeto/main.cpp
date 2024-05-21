@@ -5,15 +5,18 @@
 
 using namespace std;
 
-int main() {
-    vector<int> vetor(2, 1);
 
-    // ranged loop
-    cout << "vector1 = ";
-    for (const int& i : vetor) {
-        cout << i << "  ";
+int main() {
+
+    vector<Elemento> teste {{"H", 1}, {"C", 14}};
+
+    for (Elemento e : teste) {
+        cout << e.getMassa() << endl;
     }
+
+    return 0;
 }
+
 
 int main1() {
 

@@ -16,10 +16,11 @@ class MassaMolecular : public Base {
 
 /// Classe para representar um átomo
 class Elemento {
-    string simbolo;
+    string elemento;
     MassaAtomica MA;
 public:
-    Elemento(string elemento, double massa);
+    Elemento(string simbolo, double massaAtomica);
+    double getMassa();
 };
 
 
@@ -27,11 +28,12 @@ public:
 class Especie {
     string nome;
     MassaMolecular MM;
-    Elemento componentes[1];
+    Elemento* componentes;
 public:
     Especie(string especie, Elemento atomos[]);
     void calcularMassaMolecular();
 };
+
 
 
 /// Classe para representar a mistura

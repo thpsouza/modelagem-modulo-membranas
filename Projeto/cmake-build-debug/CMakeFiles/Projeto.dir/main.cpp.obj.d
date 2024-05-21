@@ -57,6 +57,8 @@ CMakeFiles/Projeto.dir/main.cpp.obj: \
   C:/msys64/mingw64/include/c++/13.2.0/tr1/poly_hermite.tcc \
   C:/msys64/mingw64/include/c++/13.2.0/tr1/poly_laguerre.tcc \
   C:/msys64/mingw64/include/c++/13.2.0/tr1/riemann_zeta.tcc \
+  C:/Users/EQ/Desktop/Thiago\ Souza/Projeto/Mistura/especies.h \
+  C:/Users/EQ/Desktop/Thiago\ Souza/Projeto/Mistura/../Gerais/base.h \
   C:/msys64/mingw64/include/c++/13.2.0/iostream \
   C:/msys64/mingw64/include/c++/13.2.0/ostream \
   C:/msys64/mingw64/include/c++/13.2.0/ios \
