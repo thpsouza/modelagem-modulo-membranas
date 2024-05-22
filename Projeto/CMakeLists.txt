@@ -8,5 +8,6 @@ add_executable(Projeto main.cpp
         Geometria/geometria.h
         Gerais/base.cpp
         Gerais/base.h
-        Mistura/especies.cpp
+        Mistura/mistura.cpp
+        Mistura/mistura.h
         Mistura/especies.h)

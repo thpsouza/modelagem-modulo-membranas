@@ -176,29 +176,29 @@ Gerais/base.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Projeto.dir\build.make CMakeFiles/Projeto.dir/Gerais/base.cpp.s
 .PHONY : Gerais/base.cpp.s
 
-Mistura/especies.obj: Mistura/especies.cpp.obj
-.PHONY : Mistura/especies.obj
+Mistura/mistura.obj: Mistura/mistura.cpp.obj
+.PHONY : Mistura/mistura.obj
 
 # target to build an object file
-Mistura/especies.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Projeto.dir\build.make CMakeFiles/Projeto.dir/Mistura/especies.cpp.obj
-.PHONY : Mistura/especies.cpp.obj
+Mistura/mistura.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Projeto.dir\build.make CMakeFiles/Projeto.dir/Mistura/mistura.cpp.obj
+.PHONY : Mistura/mistura.cpp.obj
 
-Mistura/especies.i: Mistura/especies.cpp.i
-.PHONY : Mistura/especies.i
+Mistura/mistura.i: Mistura/mistura.cpp.i
+.PHONY : Mistura/mistura.i
 
 # target to preprocess a source file
-Mistura/especies.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Projeto.dir\build.make CMakeFiles/Projeto.dir/Mistura/especies.cpp.i
-.PHONY : Mistura/especies.cpp.i
+Mistura/mistura.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Projeto.dir\build.make CMakeFiles/Projeto.dir/Mistura/mistura.cpp.i
+.PHONY : Mistura/mistura.cpp.i
 
-Mistura/especies.s: Mistura/especies.cpp.s
-.PHONY : Mistura/especies.s
+Mistura/mistura.s: Mistura/mistura.cpp.s
+.PHONY : Mistura/mistura.s
 
 # target to generate assembly for a file
-Mistura/especies.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Projeto.dir\build.make CMakeFiles/Projeto.dir/Mistura/especies.cpp.s
-.PHONY : Mistura/especies.cpp.s
+Mistura/mistura.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Projeto.dir\build.make CMakeFiles/Projeto.dir/Mistura/mistura.cpp.s
+.PHONY : Mistura/mistura.cpp.s
 
 main.obj: main.cpp.obj
 .PHONY : main.obj
@@ -239,9 +239,9 @@ help:
 	@echo ... Gerais/base.obj
 	@echo ... Gerais/base.i
 	@echo ... Gerais/base.s
-	@echo ... Mistura/especies.obj
-	@echo ... Mistura/especies.i
-	@echo ... Mistura/especies.s
+	@echo ... Mistura/mistura.obj
+	@echo ... Mistura/mistura.i
+	@echo ... Mistura/mistura.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

@@ -65,9 +65,9 @@ CMakeFiles/Projeto.dir/Geometria/geometria.cpp.obj: C:/Users/EQ/Desktop/Thiago\ 
 CMakeFiles/Projeto.dir/Gerais/base.cpp.obj: C:/Users/EQ/Desktop/Thiago\ Souza/Projeto/Gerais/base.cpp \
   C:/Users/EQ/Desktop/Thiago\ Souza/Projeto/Gerais/base.h
 
-CMakeFiles/Projeto.dir/Mistura/especies.cpp.obj: C:/Users/EQ/Desktop/Thiago\ Souza/Projeto/Mistura/especies.cpp \
+CMakeFiles/Projeto.dir/Mistura/mistura.cpp.obj: C:/Users/EQ/Desktop/Thiago\ Souza/Projeto/Mistura/mistura.cpp \
   C:/Users/EQ/Desktop/Thiago\ Souza/Projeto/Gerais/base.h \
-  C:/Users/EQ/Desktop/Thiago\ Souza/Projeto/Mistura/especies.h \
+  C:/Users/EQ/Desktop/Thiago\ Souza/Projeto/Mistura/mistura.h \
   C:/msys64/mingw64/include/_mingw.h \
   C:/msys64/mingw64/include/_mingw_mac.h \
   C:/msys64/mingw64/include/_mingw_off_t.h \
@@ -117,12 +117,15 @@ CMakeFiles/Projeto.dir/Mistura/especies.cpp.obj: C:/Users/EQ/Desktop/Thiago\ Sou
   C:/msys64/mingw64/include/c++/13.2.0/bits/requires_hosted.h \
   C:/msys64/mingw64/include/c++/13.2.0/bits/std_abs.h \
   C:/msys64/mingw64/include/c++/13.2.0/bits/stl_algobase.h \
+  C:/msys64/mingw64/include/c++/13.2.0/bits/stl_bvector.h \
   C:/msys64/mingw64/include/c++/13.2.0/bits/stl_construct.h \
   C:/msys64/mingw64/include/c++/13.2.0/bits/stl_function.h \
   C:/msys64/mingw64/include/c++/13.2.0/bits/stl_iterator.h \
   C:/msys64/mingw64/include/c++/13.2.0/bits/stl_iterator_base_funcs.h \
   C:/msys64/mingw64/include/c++/13.2.0/bits/stl_iterator_base_types.h \
   C:/msys64/mingw64/include/c++/13.2.0/bits/stl_pair.h \
+  C:/msys64/mingw64/include/c++/13.2.0/bits/stl_uninitialized.h \
+  C:/msys64/mingw64/include/c++/13.2.0/bits/stl_vector.h \
   C:/msys64/mingw64/include/c++/13.2.0/bits/streambuf.tcc \
   C:/msys64/mingw64/include/c++/13.2.0/bits/streambuf_iterator.h \
   C:/msys64/mingw64/include/c++/13.2.0/bits/string_view.tcc \
@@ -130,6 +133,7 @@ CMakeFiles/Projeto.dir/Mistura/especies.cpp.obj: C:/Users/EQ/Desktop/Thiago\ Sou
   C:/msys64/mingw64/include/c++/13.2.0/bits/uses_allocator.h \
   C:/msys64/mingw64/include/c++/13.2.0/bits/uses_allocator_args.h \
   C:/msys64/mingw64/include/c++/13.2.0/bits/utility.h \
+  C:/msys64/mingw64/include/c++/13.2.0/bits/vector.tcc \
   C:/msys64/mingw64/include/c++/13.2.0/cctype \
   C:/msys64/mingw64/include/c++/13.2.0/cerrno \
   C:/msys64/mingw64/include/c++/13.2.0/clocale \
@@ -163,6 +167,7 @@ CMakeFiles/Projeto.dir/Mistura/especies.cpp.obj: C:/Users/EQ/Desktop/Thiago\ Sou
   C:/msys64/mingw64/include/c++/13.2.0/tuple \
   C:/msys64/mingw64/include/c++/13.2.0/type_traits \
   C:/msys64/mingw64/include/c++/13.2.0/typeinfo \
+  C:/msys64/mingw64/include/c++/13.2.0/vector \
   C:/msys64/mingw64/include/c++/13.2.0/x86_64-w64-mingw32/bits/atomic_word.h \
   C:/msys64/mingw64/include/c++/13.2.0/x86_64-w64-mingw32/bits/c++allocator.h \
   C:/msys64/mingw64/include/c++/13.2.0/x86_64-w64-mingw32/bits/c++config.h \
@@ -216,6 +221,7 @@ CMakeFiles/Projeto.dir/main.cpp.obj: C:/Users/EQ/Desktop/Thiago\ Souza/Projeto/m
   C:/Users/EQ/Desktop/Thiago\ Souza/Projeto/Geometria/geometria.h \
   C:/Users/EQ/Desktop/Thiago\ Souza/Projeto/Gerais/base.h \
   C:/Users/EQ/Desktop/Thiago\ Souza/Projeto/Mistura/especies.h \
+  C:/Users/EQ/Desktop/Thiago\ Souza/Projeto/Mistura/mistura.h \
   C:/msys64/mingw64/include/_mingw.h \
   C:/msys64/mingw64/include/_mingw_mac.h \
   C:/msys64/mingw64/include/_mingw_off_t.h \
@@ -383,11 +389,15 @@ CMakeFiles/Projeto.dir/main.cpp.obj: C:/Users/EQ/Desktop/Thiago\ Souza/Projeto/m
 
 C:/msys64/mingw64/include/c++/13.2.0/bits/concept_check.h:
 
+C:/Users/EQ/Desktop/Thiago\ Souza/Projeto/Mistura/mistura.cpp:
+
 C:/msys64/mingw64/include/sys/timeb.h:
 
 C:/Users/EQ/Desktop/Thiago\ Souza/Projeto/Geometria/geometria.cpp:
 
 C:/Users/EQ/Desktop/Thiago\ Souza/Projeto/Gerais/base.h:
+
+C:/Users/EQ/Desktop/Thiago\ Souza/Projeto/Mistura/mistura.h:
 
 C:/msys64/mingw64/include/wctype.h:
 
@@ -537,10 +547,6 @@ C:/msys64/mingw64/lib/clang/17/include/limits.h:
 
 C:/msys64/mingw64/lib/clang/17/include/vadefs.h:
 
-C:/Users/EQ/Desktop/Thiago\ Souza/Projeto/Mistura/especies.cpp:
-
-C:/Users/EQ/Desktop/Thiago\ Souza/Projeto/Mistura/especies.h:
-
 C:/msys64/mingw64/include/_mingw_stat64.h:
 
 C:/msys64/mingw64/include/_timeval.h:
@@ -607,9 +613,15 @@ C:/msys64/mingw64/include/c++/13.2.0/bits/postypes.h:
 
 C:/msys64/mingw64/include/c++/13.2.0/bits/refwrap.h:
 
+C:/msys64/mingw64/include/c++/13.2.0/bits/stl_bvector.h:
+
 C:/msys64/mingw64/include/c++/13.2.0/bits/stl_construct.h:
 
 C:/msys64/mingw64/include/c++/13.2.0/bits/stl_function.h:
+
+C:/msys64/mingw64/include/c++/13.2.0/x86_64-w64-mingw32/bits/gthr-default.h:
+
+C:/msys64/mingw64/include/c++/13.2.0/bits/stl_vector.h:
 
 C:/msys64/mingw64/include/c++/13.2.0/bits/streambuf_iterator.h:
 
@@ -618,6 +630,10 @@ C:/msys64/mingw64/include/c++/13.2.0/bits/string_view.tcc:
 C:/msys64/mingw64/include/c++/13.2.0/bits/stringfwd.h:
 
 C:/msys64/mingw64/include/c++/13.2.0/bits/uses_allocator.h:
+
+C:/msys64/mingw64/include/c++/13.2.0/new:
+
+C:/msys64/mingw64/include/c++/13.2.0/bits/vector.tcc:
 
 C:/msys64/mingw64/include/c++/13.2.0/cctype:
 
@@ -653,10 +669,6 @@ C:/msys64/mingw64/include/c++/13.2.0/iostream:
 
 C:/msys64/mingw64/include/c++/13.2.0/istream:
 
-C:/msys64/mingw64/include/c++/13.2.0/bits/vector.tcc:
-
-C:/msys64/mingw64/include/c++/13.2.0/new:
-
 C:/msys64/mingw64/include/c++/13.2.0/ostream:
 
 C:/msys64/mingw64/include/c++/13.2.0/stdexcept:
@@ -664,6 +676,8 @@ C:/msys64/mingw64/include/c++/13.2.0/stdexcept:
 C:/msys64/mingw64/include/c++/13.2.0/streambuf:
 
 C:/msys64/mingw64/include/c++/13.2.0/typeinfo:
+
+C:/msys64/mingw64/include/c++/13.2.0/vector:
 
 C:/msys64/mingw64/include/c++/13.2.0/x86_64-w64-mingw32/bits/atomic_word.h:
 
@@ -674,10 +688,6 @@ C:/msys64/mingw64/include/c++/13.2.0/x86_64-w64-mingw32/bits/c++locale.h:
 C:/msys64/mingw64/include/c++/13.2.0/x86_64-w64-mingw32/bits/ctype_base.h:
 
 C:/msys64/mingw64/include/c++/13.2.0/x86_64-w64-mingw32/bits/ctype_inline.h:
-
-C:/msys64/mingw64/include/c++/13.2.0/bits/stl_vector.h:
-
-C:/msys64/mingw64/include/c++/13.2.0/x86_64-w64-mingw32/bits/gthr-default.h:
 
 C:/msys64/mingw64/include/c++/13.2.0/x86_64-w64-mingw32/bits/gthr.h:
 
@@ -717,6 +727,4 @@ C:/msys64/mingw64/lib/clang/17/include/stddef.h:
 
 C:/Users/EQ/Desktop/Thiago\ Souza/Projeto/main.cpp:
 
-C:/msys64/mingw64/include/c++/13.2.0/bits/stl_bvector.h:
-
-C:/msys64/mingw64/include/c++/13.2.0/vector:
+C:/Users/EQ/Desktop/Thiago\ Souza/Projeto/Mistura/especies.h:

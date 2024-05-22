@@ -67,10 +67,10 @@ CMakeFiles/Projeto.dir/Gerais/base.cpp.obj
  C:/Users/EQ/Desktop/Thiago Souza/Projeto/Gerais/base.cpp
  C:/Users/EQ/Desktop/Thiago Souza/Projeto/Gerais/base.h
 
-CMakeFiles/Projeto.dir/Mistura/especies.cpp.obj
- C:/Users/EQ/Desktop/Thiago Souza/Projeto/Mistura/especies.cpp
+CMakeFiles/Projeto.dir/Mistura/mistura.cpp.obj
+ C:/Users/EQ/Desktop/Thiago Souza/Projeto/Mistura/mistura.cpp
  C:/Users/EQ/Desktop/Thiago Souza/Projeto/Gerais/base.h
- C:/Users/EQ/Desktop/Thiago Souza/Projeto/Mistura/especies.h
+ C:/Users/EQ/Desktop/Thiago Souza/Projeto/Mistura/mistura.h
  C:/msys64/mingw64/include/_mingw.h
  C:/msys64/mingw64/include/_mingw_mac.h
  C:/msys64/mingw64/include/_mingw_off_t.h
@@ -120,12 +120,15 @@ CMakeFiles/Projeto.dir/Mistura/especies.cpp.obj
  C:/msys64/mingw64/include/c++/13.2.0/bits/requires_hosted.h
  C:/msys64/mingw64/include/c++/13.2.0/bits/std_abs.h
  C:/msys64/mingw64/include/c++/13.2.0/bits/stl_algobase.h
+ C:/msys64/mingw64/include/c++/13.2.0/bits/stl_bvector.h
  C:/msys64/mingw64/include/c++/13.2.0/bits/stl_construct.h
  C:/msys64/mingw64/include/c++/13.2.0/bits/stl_function.h
  C:/msys64/mingw64/include/c++/13.2.0/bits/stl_iterator.h
  C:/msys64/mingw64/include/c++/13.2.0/bits/stl_iterator_base_funcs.h
  C:/msys64/mingw64/include/c++/13.2.0/bits/stl_iterator_base_types.h
  C:/msys64/mingw64/include/c++/13.2.0/bits/stl_pair.h
+ C:/msys64/mingw64/include/c++/13.2.0/bits/stl_uninitialized.h
+ C:/msys64/mingw64/include/c++/13.2.0/bits/stl_vector.h
  C:/msys64/mingw64/include/c++/13.2.0/bits/streambuf.tcc
  C:/msys64/mingw64/include/c++/13.2.0/bits/streambuf_iterator.h
  C:/msys64/mingw64/include/c++/13.2.0/bits/string_view.tcc
@@ -133,6 +136,7 @@ CMakeFiles/Projeto.dir/Mistura/especies.cpp.obj
  C:/msys64/mingw64/include/c++/13.2.0/bits/uses_allocator.h
  C:/msys64/mingw64/include/c++/13.2.0/bits/uses_allocator_args.h
  C:/msys64/mingw64/include/c++/13.2.0/bits/utility.h
+ C:/msys64/mingw64/include/c++/13.2.0/bits/vector.tcc
  C:/msys64/mingw64/include/c++/13.2.0/cctype
  C:/msys64/mingw64/include/c++/13.2.0/cerrno
  C:/msys64/mingw64/include/c++/13.2.0/clocale
@@ -166,6 +170,7 @@ CMakeFiles/Projeto.dir/Mistura/especies.cpp.obj
  C:/msys64/mingw64/include/c++/13.2.0/tuple
  C:/msys64/mingw64/include/c++/13.2.0/type_traits
  C:/msys64/mingw64/include/c++/13.2.0/typeinfo
+ C:/msys64/mingw64/include/c++/13.2.0/vector
  C:/msys64/mingw64/include/c++/13.2.0/x86_64-w64-mingw32/bits/atomic_word.h
  C:/msys64/mingw64/include/c++/13.2.0/x86_64-w64-mingw32/bits/c++allocator.h
  C:/msys64/mingw64/include/c++/13.2.0/x86_64-w64-mingw32/bits/c++config.h
@@ -220,6 +225,7 @@ CMakeFiles/Projeto.dir/main.cpp.obj
  C:/Users/EQ/Desktop/Thiago Souza/Projeto/Geometria/geometria.h
  C:/Users/EQ/Desktop/Thiago Souza/Projeto/Gerais/base.h
  C:/Users/EQ/Desktop/Thiago Souza/Projeto/Mistura/especies.h
+ C:/Users/EQ/Desktop/Thiago Souza/Projeto/Mistura/mistura.h
  C:/msys64/mingw64/include/_mingw.h
  C:/msys64/mingw64/include/_mingw_mac.h
  C:/msys64/mingw64/include/_mingw_off_t.h

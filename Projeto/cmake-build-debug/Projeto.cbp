@@ -90,10 +90,13 @@
 		<Unit filename="C:/Users/EQ/Desktop/Thiago Souza/Projeto/Gerais/base.h">
 			<Option target="Projeto"/>
 		</Unit>
-		<Unit filename="C:/Users/EQ/Desktop/Thiago Souza/Projeto/Mistura/especies.cpp">
+		<Unit filename="C:/Users/EQ/Desktop/Thiago Souza/Projeto/Mistura/especies.h">
 			<Option target="Projeto"/>
 		</Unit>
-		<Unit filename="C:/Users/EQ/Desktop/Thiago Souza/Projeto/Mistura/especies.h">
+		<Unit filename="C:/Users/EQ/Desktop/Thiago Souza/Projeto/Mistura/mistura.cpp">
+			<Option target="Projeto"/>
+		</Unit>
+		<Unit filename="C:/Users/EQ/Desktop/Thiago Souza/Projeto/Mistura/mistura.h">
 			<Option target="Projeto"/>
 		</Unit>
 		<Unit filename="C:/Users/EQ/Desktop/Thiago Souza/Projeto/main.cpp">

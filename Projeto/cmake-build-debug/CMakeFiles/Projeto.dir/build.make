@@ -110,26 +110,26 @@ CMakeFiles/Projeto.dir/Gerais/base.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Projeto.dir/Gerais/base.cpp.s"
 	C:\msys64\mingw64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\EQ\Desktop\Thiago Souza\Projeto\Gerais\base.cpp" -o CMakeFiles\Projeto.dir\Gerais\base.cpp.s
 
-CMakeFiles/Projeto.dir/Mistura/especies.cpp.obj: CMakeFiles/Projeto.dir/flags.make
-CMakeFiles/Projeto.dir/Mistura/especies.cpp.obj: C:/Users/EQ/Desktop/Thiago\ Souza/Projeto/Mistura/especies.cpp
-CMakeFiles/Projeto.dir/Mistura/especies.cpp.obj: CMakeFiles/Projeto.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\EQ\Desktop\Thiago Souza\Projeto\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Projeto.dir/Mistura/especies.cpp.obj"
-	C:\msys64\mingw64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Projeto.dir/Mistura/especies.cpp.obj -MF CMakeFiles\Projeto.dir\Mistura\especies.cpp.obj.d -o CMakeFiles\Projeto.dir\Mistura\especies.cpp.obj -c "C:\Users\EQ\Desktop\Thiago Souza\Projeto\Mistura\especies.cpp"
+CMakeFiles/Projeto.dir/Mistura/mistura.cpp.obj: CMakeFiles/Projeto.dir/flags.make
+CMakeFiles/Projeto.dir/Mistura/mistura.cpp.obj: C:/Users/EQ/Desktop/Thiago\ Souza/Projeto/Mistura/mistura.cpp
+CMakeFiles/Projeto.dir/Mistura/mistura.cpp.obj: CMakeFiles/Projeto.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\EQ\Desktop\Thiago Souza\Projeto\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Projeto.dir/Mistura/mistura.cpp.obj"
+	C:\msys64\mingw64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Projeto.dir/Mistura/mistura.cpp.obj -MF CMakeFiles\Projeto.dir\Mistura\mistura.cpp.obj.d -o CMakeFiles\Projeto.dir\Mistura\mistura.cpp.obj -c "C:\Users\EQ\Desktop\Thiago Souza\Projeto\Mistura\mistura.cpp"
 
-CMakeFiles/Projeto.dir/Mistura/especies.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Projeto.dir/Mistura/especies.cpp.i"
-	C:\msys64\mingw64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\EQ\Desktop\Thiago Souza\Projeto\Mistura\especies.cpp" > CMakeFiles\Projeto.dir\Mistura\especies.cpp.i
+CMakeFiles/Projeto.dir/Mistura/mistura.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Projeto.dir/Mistura/mistura.cpp.i"
+	C:\msys64\mingw64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\EQ\Desktop\Thiago Souza\Projeto\Mistura\mistura.cpp" > CMakeFiles\Projeto.dir\Mistura\mistura.cpp.i
 
-CMakeFiles/Projeto.dir/Mistura/especies.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Projeto.dir/Mistura/especies.cpp.s"
-	C:\msys64\mingw64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\EQ\Desktop\Thiago Souza\Projeto\Mistura\especies.cpp" -o CMakeFiles\Projeto.dir\Mistura\especies.cpp.s
+CMakeFiles/Projeto.dir/Mistura/mistura.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Projeto.dir/Mistura/mistura.cpp.s"
+	C:\msys64\mingw64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\EQ\Desktop\Thiago Souza\Projeto\Mistura\mistura.cpp" -o CMakeFiles\Projeto.dir\Mistura\mistura.cpp.s
 
 # Object files for target Projeto
 Projeto_OBJECTS = \
 "CMakeFiles/Projeto.dir/main.cpp.obj" \
 "CMakeFiles/Projeto.dir/Geometria/geometria.cpp.obj" \
 "CMakeFiles/Projeto.dir/Gerais/base.cpp.obj" \
-"CMakeFiles/Projeto.dir/Mistura/especies.cpp.obj"
+"CMakeFiles/Projeto.dir/Mistura/mistura.cpp.obj"
 
 # External object files for target Projeto
 Projeto_EXTERNAL_OBJECTS =
@@ -137,7 +137,7 @@ Projeto_EXTERNAL_OBJECTS =
 Projeto.exe: CMakeFiles/Projeto.dir/main.cpp.obj
 Projeto.exe: CMakeFiles/Projeto.dir/Geometria/geometria.cpp.obj
 Projeto.exe: CMakeFiles/Projeto.dir/Gerais/base.cpp.obj
-Projeto.exe: CMakeFiles/Projeto.dir/Mistura/especies.cpp.obj
+Projeto.exe: CMakeFiles/Projeto.dir/Mistura/mistura.cpp.obj
 Projeto.exe: CMakeFiles/Projeto.dir/build.make
 Projeto.exe: CMakeFiles/Projeto.dir/linkLibs.rsp
 Projeto.exe: CMakeFiles/Projeto.dir/objects1.rsp
