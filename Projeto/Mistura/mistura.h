@@ -5,7 +5,6 @@
 #include <iostream>
 #include <vector>
 
-using namespace std;
 
 /// Massas
 class MassaAtomica : public Base {
@@ -17,24 +16,25 @@ class MassaMolecular : public Base {
 
 /// Classe para representar um átomo
 class Elemento {
-    string elemento;
+    std::string simbolo;
     MassaAtomica MA;
     double raio;
 public:
-    Elemento(string simbolo, double massaAtomica);
+    Elemento(std::string simbolo, double massaAtomica);
     double getMassa();
 };
 
 
 /// Classe para representar uma molécula
 class Molecula {
-    string nome;
+    std::string formula;
     MassaMolecular MM;
-    vector<Elemento> componentes;
+    std::vector<Elemento> componentes;
     void calcularMassaMolecular();
 public:
-    Molecula(string formula, Elemento atomos[], int n);
-    operator string() const;
+    Molecula(std::string formula, std::vector<Elemento> atomos);
+    Molecula(std::string formula, Elemento atomos[], int n);
+    operator std::string() const;
     double getMassa();
 };
 
@@ -42,11 +42,12 @@ public:
 
 /// Classe para representar a mistura
 class Mistura {
-    vector<Molecula> componentes;
-    vector<double> fracoes;
+    std::vector<Molecula> componentes;
+    std::vector<double> fracoes;
 public:
+    Mistura(std::vector<Molecula> moleculas, std::vector<double> fracoesMassicas);
     Mistura(Molecula moleculas[], double fracoesMassicas[], int n);
-    operator string() const;
+    operator std::string() const;
 };
 
 

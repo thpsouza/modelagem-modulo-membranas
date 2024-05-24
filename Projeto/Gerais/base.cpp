@@ -3,8 +3,8 @@
 Base::Base() {
 }
 
-Base::Base(double x) {
-    value = x;
+Base::Base(double value) {
+    Base::value = value;
 }
 
 double Base::getValue() const {

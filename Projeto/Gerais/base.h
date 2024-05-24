@@ -7,7 +7,7 @@ class Base {
 public:
     // Construtores
     Base();
-    Base(double x);
+    Base(double value);
 
     // Modificadores
     double getValue() const;
