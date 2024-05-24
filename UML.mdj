@@ -9637,7 +9637,7 @@
 											"top": 294,
 											"width": 187.7607421875,
 											"height": 13,
-											"text": "-nome: string",
+											"text": "-formula: string",
 											"horizontalAlignment": 0
 										},
 										{
@@ -9885,7 +9885,7 @@
 											"top": 310,
 											"width": 117.3017578125,
 											"height": 13,
-											"text": "-nome: string",
+											"text": "-simbolo: string",
 											"horizontalAlignment": 0
 										},
 										{
@@ -12160,7 +12160,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGPPk5K5pGj14g="
 							},
-							"name": "nome",
+							"name": "formula",
 							"visibility": "private",
 							"type": "string"
 						},
@@ -12255,7 +12255,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGPPk5kQ5H9ic4="
 							},
-							"name": "nome",
+							"name": "simbolo",
 							"visibility": "private",
 							"type": "string"
 						},
