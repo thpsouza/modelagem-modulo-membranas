@@ -10,4 +10,5 @@ add_executable(Projeto main.cpp
         Gerais/base.h
         Mistura/mistura.cpp
         Mistura/mistura.h
-        Mistura/especies.h)
+        Mistura/especies.h
+        Gerais/gerais.h)

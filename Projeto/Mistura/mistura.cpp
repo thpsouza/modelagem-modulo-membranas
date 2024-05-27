@@ -15,17 +15,25 @@ double Elemento::getMassa() {
 
 /// Representação de moléculas
 // Construtores
-Molecula::Molecula(std::string formula, std::vector<Elemento> atomos) {
+Molecula::Molecula(std::string formula, std::vector<Elemento> atomos, double raio) {
     Molecula::formula = formula;
+    Molecula::raio.setValue(raio);
     componentes = atomos;
     calcularMassaMolecular();
 }
 
-Molecula::Molecula(std::string formula, Elemento *atomos, int n) {
+Molecula::Molecula(std::string formula, Elemento *atomos, int n, double raio) {
     Molecula::formula = formula;
+    Molecula::raio.setValue(raio);
     for (int i = 0; i < n; i++) {
         componentes.push_back(atomos[i]);
     }
+    calcularMassaMolecular();
+}
+
+Molecula::Molecula(std::string formula, std::vector<Elemento> atomos) {
+    Molecula::formula = formula;
+    componentes = atomos;
     calcularMassaMolecular();
 }
 
@@ -47,6 +55,7 @@ void Molecula::calcularMassaMolecular() {
 double Molecula::getMassa() {
     return MM.getValue();
 }
+
 
 
 /// Representação de misturas

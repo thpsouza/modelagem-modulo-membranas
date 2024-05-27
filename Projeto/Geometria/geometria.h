@@ -1,9 +1,7 @@
 #ifndef PROJETO_GEOMETRIA_H
 #define PROJETO_GEOMETRIA_H
 
-#include "../Gerais/base.h"
-#include <cmath>
-#define pi 3.141592653589793
+#include "../Gerais/gerais.h"
 
 /// Espaços 1D
 class ArestaCubo : public Base {

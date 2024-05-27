@@ -1,7 +1,7 @@
 CMakeFiles/Projeto.dir/main.cpp.obj: \
   C:/Users/EQ/Desktop/Thiago\ Souza/Projeto/main.cpp \
   C:/Users/EQ/Desktop/Thiago\ Souza/Projeto/Geometria/geometria.h \
-  C:/Users/EQ/Desktop/Thiago\ Souza/Projeto/Geometria/../Gerais/base.h \
+  C:/Users/EQ/Desktop/Thiago\ Souza/Projeto/Geometria/../Gerais/gerais.h \
   C:/msys64/mingw64/include/c++/13.2.0/cmath \
   C:/msys64/mingw64/include/c++/13.2.0/bits/requires_hosted.h \
   C:/msys64/mingw64/include/c++/13.2.0/x86_64-w64-mingw32/bits/c++config.h \
@@ -57,9 +57,6 @@ CMakeFiles/Projeto.dir/main.cpp.obj: \
   C:/msys64/mingw64/include/c++/13.2.0/tr1/poly_hermite.tcc \
   C:/msys64/mingw64/include/c++/13.2.0/tr1/poly_laguerre.tcc \
   C:/msys64/mingw64/include/c++/13.2.0/tr1/riemann_zeta.tcc \
-  C:/Users/EQ/Desktop/Thiago\ Souza/Projeto/Mistura/especies.h \
-  C:/Users/EQ/Desktop/Thiago\ Souza/Projeto/Mistura/mistura.h \
-  C:/Users/EQ/Desktop/Thiago\ Souza/Projeto/Mistura/../Gerais/base.h \
   C:/msys64/mingw64/include/c++/13.2.0/iostream \
   C:/msys64/mingw64/include/c++/13.2.0/ostream \
   C:/msys64/mingw64/include/c++/13.2.0/ios \
@@ -162,4 +159,8 @@ CMakeFiles/Projeto.dir/main.cpp.obj: \
   C:/msys64/mingw64/include/c++/13.2.0/bits/stl_uninitialized.h \
   C:/msys64/mingw64/include/c++/13.2.0/bits/stl_vector.h \
   C:/msys64/mingw64/include/c++/13.2.0/bits/stl_bvector.h \
-  C:/msys64/mingw64/include/c++/13.2.0/bits/vector.tcc
+  C:/msys64/mingw64/include/c++/13.2.0/bits/vector.tcc \
+  C:/Users/EQ/Desktop/Thiago\ Souza/Projeto/Geometria/../Gerais/base.h \
+  C:/Users/EQ/Desktop/Thiago\ Souza/Projeto/Mistura/especies.h \
+  C:/Users/EQ/Desktop/Thiago\ Souza/Projeto/Mistura/mistura.h \
+  C:/Users/EQ/Desktop/Thiago\ Souza/Projeto/Mistura/../Gerais/gerais.h
