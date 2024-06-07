@@ -1,6 +1,7 @@
 #include "Geometria/geometria.h"
 #include "Mistura/especies.h"
 #include <iostream>
+#include <matplot/matplot.h>
 
 using namespace std;
 
@@ -23,7 +24,7 @@ void geometria() {
     // prova real: numero de fibras
     int Nf = (int) round(
             pow(l.getValue(), 3) * (1 - porosidade.getValue()) /
-            (cf.getValue() * pi * pow(df.getValue(), 2) / 4)
+            (cf.getValue() * M_PI * pow(df.getValue(), 2) / 4)
     );
 
     cout << "Geometria:" << endl;

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Projeto"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="clang"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\.vcpkg-clion\;CMake Files\..\..\..\.vcpkg-clion\vcpkg\;CMake Files\..\..\..\.vcpkg-clion\vcpkg\scripts\;CMake Files\..\..\..\.vcpkg-clion\vcpkg\scripts\buildsystems\;CMake Files\..\..\..\.vcpkg-clion\vcpkg\packages\;CMake Files\..\..\..\.vcpkg-clion\vcpkg\packages\matplotplusplus_x64-mingw-dynamic\;CMake Files\..\..\..\.vcpkg-clion\vcpkg\packages\matplotplusplus_x64-mingw-dynamic\share\;CMake Files\..\..\..\.vcpkg-clion\vcpkg\packages\matplotplusplus_x64-mingw-dynamic\share\matplot++\;CMake Files\..\..\..\.vcpkg-clion\vcpkg\packages\nodesoup_x64-mingw-dynamic\;CMake Files\..\..\..\.vcpkg-clion\vcpkg\packages\nodesoup_x64-mingw-dynamic\share\;CMake Files\..\..\..\.vcpkg-clion\vcpkg\packages\nodesoup_x64-mingw-dynamic\share\nodesoup\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/EQ/Desktop/Thiago Souza/Projeto/cmake-build-debug-event-trace"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/EQ/Desktop/Thiago Souza/Projeto/cmake-build-debug-event-trace/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/EQ/Desktop/Thiago Souza/Projeto/cmake-build-debug-event-trace/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/EQ/Desktop/Thiago Souza/Projeto/cmake-build-debug-event-trace/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/EQ/Desktop/Thiago Souza/Projeto/cmake-build-debug-event-trace/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Projeto">
+				<Option output="C:/Users/EQ/Desktop/Thiago Souza/Projeto/cmake-build-debug-event-trace/Projeto.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/EQ/Desktop/Thiago Souza/Projeto/cmake-build-debug-event-trace"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-Dcimg_display=2"/>
+					<Add option="-DNOMINMAX"/>
+					<Add directory="C:/Users/EQ/.vcpkg-clion/vcpkg/packages/matplotplusplus_x64-mingw-dynamic/include"/>
+					<Add directory="C:/msys64/mingw64/include/c++/13.2.0"/>
+					<Add directory="C:/msys64/mingw64/include/c++/13.2.0/x86_64-w64-mingw32"/>
+					<Add directory="C:/msys64/mingw64/include/c++/13.2.0/backward"/>
+					<Add directory="C:/msys64/mingw64/lib/clang/17/include"/>
+					<Add directory="C:/msys64/mingw64/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/EQ/Desktop/Thiago Souza/Projeto/cmake-build-debug-event-trace/Makefile&quot;  VERBOSE=1 Projeto"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/EQ/Desktop/Thiago Souza/Projeto/cmake-build-debug-event-trace/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/EQ/Desktop/Thiago Souza/Projeto/cmake-build-debug-event-trace/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/EQ/Desktop/Thiago Souza/Projeto/cmake-build-debug-event-trace/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Projeto/fast">
+				<Option output="C:/Users/EQ/Desktop/Thiago Souza/Projeto/cmake-build-debug-event-trace/Projeto.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/EQ/Desktop/Thiago Souza/Projeto/cmake-build-debug-event-trace"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-Dcimg_display=2"/>
+					<Add option="-DNOMINMAX"/>
+					<Add directory="C:/Users/EQ/.vcpkg-clion/vcpkg/packages/matplotplusplus_x64-mingw-dynamic/include"/>
+					<Add directory="C:/msys64/mingw64/include/c++/13.2.0"/>
+					<Add directory="C:/msys64/mingw64/include/c++/13.2.0/x86_64-w64-mingw32"/>
+					<Add directory="C:/msys64/mingw64/include/c++/13.2.0/backward"/>
+					<Add directory="C:/msys64/mingw64/lib/clang/17/include"/>
+					<Add directory="C:/msys64/mingw64/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/EQ/Desktop/Thiago Souza/Projeto/cmake-build-debug-event-trace/Makefile&quot;  VERBOSE=1 Projeto/fast"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/EQ/Desktop/Thiago Souza/Projeto/cmake-build-debug-event-trace/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/EQ/Desktop/Thiago Souza/Projeto/cmake-build-debug-event-trace/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/EQ/Desktop/Thiago Souza/Projeto/cmake-build-debug-event-trace/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/EQ/Desktop/Thiago Souza/Projeto/cmake-build-debug-event-trace"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/EQ/Desktop/Thiago Souza/Projeto/cmake-build-debug-event-trace/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/EQ/Desktop/Thiago Souza/Projeto/cmake-build-debug-event-trace/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/EQ/Desktop/Thiago Souza/Projeto/cmake-build-debug-event-trace/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/EQ/Desktop/Thiago Souza/Projeto/cmake-build-debug-event-trace/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/EQ/Desktop/Thiago Souza/Projeto/cmake-build-debug-event-trace"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/EQ/Desktop/Thiago Souza/Projeto/cmake-build-debug-event-trace/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/EQ/Desktop/Thiago Souza/Projeto/cmake-build-debug-event-trace/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/EQ/Desktop/Thiago Souza/Projeto/cmake-build-debug-event-trace/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/EQ/Desktop/Thiago Souza/Projeto/cmake-build-debug-event-trace/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/EQ/Desktop/Thiago Souza/Projeto/Geometria/geometria.cpp">
+			<Option target="Projeto"/>
+		</Unit>
+		<Unit filename="C:/Users/EQ/Desktop/Thiago Souza/Projeto/Geometria/geometria.h">
+			<Option target="Projeto"/>
+		</Unit>
+		<Unit filename="C:/Users/EQ/Desktop/Thiago Souza/Projeto/Gerais/base.cpp">
+			<Option target="Projeto"/>
+		</Unit>
+		<Unit filename="C:/Users/EQ/Desktop/Thiago Souza/Projeto/Gerais/base.h">
+			<Option target="Projeto"/>
+		</Unit>
+		<Unit filename="C:/Users/EQ/Desktop/Thiago Souza/Projeto/Gerais/gerais.h">
+			<Option target="Projeto"/>
+		</Unit>
+		<Unit filename="C:/Users/EQ/Desktop/Thiago Souza/Projeto/Mistura/especies.h">
+			<Option target="Projeto"/>
+		</Unit>
+		<Unit filename="C:/Users/EQ/Desktop/Thiago Souza/Projeto/Mistura/mistura.cpp">
+			<Option target="Projeto"/>
+		</Unit>
+		<Unit filename="C:/Users/EQ/Desktop/Thiago Souza/Projeto/Mistura/mistura.h">
+			<Option target="Projeto"/>
+		</Unit>
+		<Unit filename="C:/Users/EQ/Desktop/Thiago Souza/Projeto/main.cpp">
+			<Option target="Projeto"/>
+		</Unit>
+		<Unit filename="C:/Users/EQ/Desktop/Thiago Souza/Projeto/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Users/EQ/Desktop/Thiago Souza/Projeto/../../../.vcpkg-clion/vcpkg/scripts/buildsystems/vcpkg.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\.vcpkg-clion\vcpkg\scripts\buildsystems\"/>
+		</Unit>
+		<Unit filename="C:/Users/EQ/Desktop/Thiago Souza/Projeto/../../../.vcpkg-clion/vcpkg/packages/matplotplusplus_x64-mingw-dynamic/share/matplot++/Matplot++Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\.vcpkg-clion\vcpkg\packages\matplotplusplus_x64-mingw-dynamic\share\matplot++\"/>
+		</Unit>
+		<Unit filename="C:/Users/EQ/Desktop/Thiago Souza/Projeto/../../../.vcpkg-clion/vcpkg/packages/matplotplusplus_x64-mingw-dynamic/share/matplot++/Matplot++ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\.vcpkg-clion\vcpkg\packages\matplotplusplus_x64-mingw-dynamic\share\matplot++\"/>
+		</Unit>
+		<Unit filename="C:/Users/EQ/Desktop/Thiago Souza/Projeto/../../../.vcpkg-clion/vcpkg/packages/matplotplusplus_x64-mingw-dynamic/share/matplot++/Matplot++Targets-debug.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\.vcpkg-clion\vcpkg\packages\matplotplusplus_x64-mingw-dynamic\share\matplot++\"/>
+		</Unit>
+		<Unit filename="C:/Users/EQ/Desktop/Thiago Souza/Projeto/../../../.vcpkg-clion/vcpkg/packages/matplotplusplus_x64-mingw-dynamic/share/matplot++/Matplot++Targets-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\.vcpkg-clion\vcpkg\packages\matplotplusplus_x64-mingw-dynamic\share\matplot++\"/>
+		</Unit>
+		<Unit filename="C:/Users/EQ/Desktop/Thiago Souza/Projeto/../../../.vcpkg-clion/vcpkg/packages/matplotplusplus_x64-mingw-dynamic/share/matplot++/Matplot++Targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\.vcpkg-clion\vcpkg\packages\matplotplusplus_x64-mingw-dynamic\share\matplot++\"/>
+		</Unit>
+		<Unit filename="C:/Users/EQ/Desktop/Thiago Souza/Projeto/../../../.vcpkg-clion/vcpkg/packages/nodesoup_x64-mingw-dynamic/share/nodesoup/nodesoup-config-debug.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\.vcpkg-clion\vcpkg\packages\nodesoup_x64-mingw-dynamic\share\nodesoup\"/>
+		</Unit>
+		<Unit filename="C:/Users/EQ/Desktop/Thiago Souza/Projeto/../../../.vcpkg-clion/vcpkg/packages/nodesoup_x64-mingw-dynamic/share/nodesoup/nodesoup-config-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\.vcpkg-clion\vcpkg\packages\nodesoup_x64-mingw-dynamic\share\nodesoup\"/>
+		</Unit>
+		<Unit filename="C:/Users/EQ/Desktop/Thiago Souza/Projeto/../../../.vcpkg-clion/vcpkg/packages/nodesoup_x64-mingw-dynamic/share/nodesoup/nodesoup-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\.vcpkg-clion\vcpkg\packages\nodesoup_x64-mingw-dynamic\share\nodesoup\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -21,7 +21,7 @@ AreaSupFibra::AreaSupFibra(DiametroFibra df, ComprimentoFibra cf) {
     calcular(df, cf);
 }
 void AreaSupFibra::calcular(DiametroFibra df, ComprimentoFibra cf) {
-    setValue(pi * df.getValue() * cf.getValue());
+    setValue(M_PI * df.getValue() * cf.getValue());
 }
 
 
@@ -29,7 +29,7 @@ AreaTransvFibra::AreaTransvFibra(DiametroFibra df) {
     calcular(df);
 }
 void AreaTransvFibra::calcular(DiametroFibra df) {
-    setValue(pi * pow(df.getValue(), 2) / 4);
+    setValue(M_PI * pow(df.getValue(), 2) / 4);
 }
 
 
@@ -37,7 +37,7 @@ VolumeFibra::VolumeFibra(DiametroFibra df, ComprimentoFibra cf) {
     calcular(df, cf);
 }
 void VolumeFibra::calcular(DiametroFibra df, ComprimentoFibra cf) {
-    setValue(cf.getValue() * pi * pow(df.getValue(), 2) / 4);
+    setValue(cf.getValue() * M_PI * pow(df.getValue(), 2) / 4);
 }
 
 

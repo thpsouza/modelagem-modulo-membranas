@@ -11,7 +11,4 @@
 
 #include "base.h"
 
-#define pi 3.141592653589793
-
-
 #endif //PROJETO_GERAIS_H
