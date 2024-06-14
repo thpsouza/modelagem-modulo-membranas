@@ -1,7 +1,8 @@
 #include "Geometria/geometria.h"
 #include "Mistura/especies.h"
+#include "Gerais/gerais.h"
 #include <iostream>
-#include <matplot/matplot.h>
+//#include <matplot/matplot.h>
 
 using namespace std;
 
@@ -52,8 +53,33 @@ void mistura() {
     cout << string(alcool) << endl;
 }
 
+//void plot() {
+//    using namespace matplot;
+//
+//    // criando lista de pontos [0, 2*pi]
+//    std::vector<double> x = linspace(0, 2 * pi);
+//
+//    // calculando expressões com lista de pontos
+//    std::vector<double> y1 = transform(x, [](double x) { return 5 * sin(x); });
+//    std::vector<double> y2 = transform(x, [](double x) { return sin(5 * x); });
+//
+//    // ajustando layout dos gráficos - 2 linhas, 1 coluna
+//    tiledlayout(2, 1);
+//
+//    // instância do primeiro gráfico
+//    auto ax1 = nexttile();
+//    stairs(ax1, x, y1);
+//
+//    // instância do segundo gráfico
+//    auto ax2 = nexttile();
+//    stairs(ax2, x, y2);
+//
+//    show();
+//}
+
 int main() {
     geometria();
     mistura();
+    //plot();
     return 0;
 }

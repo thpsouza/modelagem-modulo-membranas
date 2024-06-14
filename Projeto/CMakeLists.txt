@@ -5,6 +5,7 @@ set(CMAKE_CXX_STANDARD 17)
 
 set(Matplot++_DIR "C:\\Users\\EQ\\.vcpkg-clion\\vcpkg\\packages\\matplotplusplus_x64-mingw-dynamic\\share\\matplot++")
 set(nodesoup_DIR "C:\\Users\\EQ\\.vcpkg-clion\\vcpkg\\packages\\nodesoup_x64-mingw-dynamic\\share\\nodesoup")
+#set(cimg_DIR "C:\\Users\\EQ\\.vcpkg-clion\\vcpkg\\packages\\cimg_x64-mingw-dynamic\\share\\cimg")
 
 add_executable(Projeto main.cpp
         Geometria/geometria.cpp
@@ -16,6 +17,5 @@ add_executable(Projeto main.cpp
         Mistura/especies.h
         Gerais/gerais.h)
 
-
 find_package(Matplot++ CONFIG REQUIRED)
-target_link_libraries(Projeto PRIVATE Matplot++::cimg  Matplot++::matplot)
+target_link_libraries(Projeto PRIVATE Matplot++::cimg Matplot++::matplot)
