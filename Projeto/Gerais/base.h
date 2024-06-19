@@ -1,18 +1,21 @@
 #ifndef PROJETO_BASE_H
 #define PROJETO_BASE_H
 
-
-class Base {
-    double value;
+template<typename T> class BaseTemplate {
+    T value;
 public:
     // Construtores
-    Base();
-    Base(double value);
+    BaseTemplate();
+    BaseTemplate(T value);
 
     // Modificadores
-    double getValue() const;
-    void setValue (double newValue);
+    T getValue() const;
+    void setValue (T newValue);
 };
+
+class Base : public BaseTemplate<double> {};
 
 
 #endif //PROJETO_BASE_H
+
+

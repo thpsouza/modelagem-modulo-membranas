@@ -1,16 +1,23 @@
 #include "base.h"
 
-Base::Base() {
+template<typename T>
+BaseTemplate<T>::BaseTemplate() {
 }
 
-Base::Base(double value) {
-    Base::value = value;
+template<typename T>
+BaseTemplate<T>::BaseTemplate(T value) {
+    BaseTemplate::value = value;
 }
 
-double Base::getValue() const {
+template<typename T>
+T BaseTemplate<T>::getValue() const {
     return value;
 }
 
-void Base::setValue(double newValue) {
+template<typename T>
+void BaseTemplate<T>::setValue(T newValue) {
     value = newValue;
 }
+
+
+

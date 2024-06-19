@@ -51,5 +51,8 @@ void NumFibras::calcular(VolumeCubo Vc, VolumeFibra Vf, PorosidadeCubo e) {
 int NumFibras::getValue() const {
     return value;
 }
+void NumFibras::setValue(int newValue) {
+    value = newValue;
+}
 
 

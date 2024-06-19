@@ -1,8 +1,10 @@
 #include "Geometria/geometria.h"
 #include "Mistura/especies.h"
 #include "Gerais/gerais.h"
-#include <iostream>
+#include "Gerais/matplotlibcpp.h"
 //#include <matplot/matplot.h>
+
+#include <iostream>
 
 using namespace std;
 
@@ -53,33 +55,24 @@ void mistura() {
     cout << string(alcool) << endl;
 }
 
-//void plot() {
-//    using namespace matplot;
-//
-//    // criando lista de pontos [0, 2*pi]
-//    std::vector<double> x = linspace(0, 2 * pi);
-//
-//    // calculando expressões com lista de pontos
-//    std::vector<double> y1 = transform(x, [](double x) { return 5 * sin(x); });
-//    std::vector<double> y2 = transform(x, [](double x) { return sin(5 * x); });
-//
-//    // ajustando layout dos gráficos - 2 linhas, 1 coluna
-//    tiledlayout(2, 1);
-//
-//    // instância do primeiro gráfico
-//    auto ax1 = nexttile();
-//    stairs(ax1, x, y1);
-//
-//    // instância do segundo gráfico
-//    auto ax2 = nexttile();
-//    stairs(ax2, x, y2);
-//
-//    show();
-//}
+
+
+
+
+void plot() {
+    namespace plt = matplotlibcpp;
+    auto x = linspace(0.0, 2*M_PI);
+    auto y = transform(x, [](double x) {return sin(x);});
+    plt::plot(x,y);
+    plt::title("Teste", {{"size", "15"}});
+    plt::show();
+    //plt::savefig("../Teste.pdf");
+}
 
 int main() {
     geometria();
     mistura();
-    //plot();
+    plot();
+
     return 0;
 }

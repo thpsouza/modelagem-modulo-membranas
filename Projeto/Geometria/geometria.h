@@ -55,6 +55,7 @@ public:
     NumFibras(VolumeCubo Vc, VolumeFibra Vf, PorosidadeCubo e);
     void calcular(VolumeCubo Vc, VolumeFibra Vf, PorosidadeCubo e);
     int getValue() const;
+    void setValue(int newValue);
 };
 
 
