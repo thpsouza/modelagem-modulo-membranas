@@ -32,7 +32,7 @@ void geometria() {
     );
 
     // Area total de transferencia
-    AreaTotalTransferencia At{As, nf};
+    AreaTotalTransferencia At{l, cf, df, porosidade};
 
     cout << "Geometria:" << endl;
     cout << "Numero de fibras = " + string(nf) << endl;
@@ -61,17 +61,39 @@ void mistura() {
 }
 
 
-
-
+//void plot_teste() {
+//    namespace plt = matplotlibcpp;
+//    auto x = linspace(0.0, 2*M_PI);
+//    auto y = transform(x, [](double x) {return sin(x);});
+//    plt::plot(x,y);
+//    plt::title("Teste", {{"size", "15"}});
+//    plt::show();
+//    //plt::savefig("../Teste.pdf");
+//}
 
 void plot() {
     namespace plt = matplotlibcpp;
-    auto x = linspace(0.0, 2*M_PI);
-    auto y = transform(x, [](double x) {return sin(x);});
+
+    /// Supondo arranjo alternado:
+    Porosidade e{0.907};
+    ArestaCubo l{1.0};
+    ComprimentoFibra cf{1.0};
+    DiametroFibra df{1.0};
+    AreaTotalTransferencia At {l, cf, df, e};
+
+    int N = 1;
+    vector<double> x(N), y(N);
+    for (int i = 0; i<=N; ++i) {
+        x.push_back(i);
+        //AreaTotalTransferencia At {l, cf, df, e};
+        y.push_back(At.getValue());
+        cout << x[i] << y[i] << endl;
+    }
+
     plt::plot(x,y);
-    plt::title("Teste", {{"size", "15"}});
+    plt::xlabel("numero de fibras");
+    plt::ylabel("Area total de transferencia");
     plt::show();
-    //plt::savefig("../Teste.pdf");
 }
 
 int main() {

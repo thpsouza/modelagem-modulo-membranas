@@ -58,6 +58,8 @@ public:
 
 class AreaTotalTransferencia : public Base {
 public:
+    AreaTotalTransferencia();
+    AreaTotalTransferencia(ArestaCubo l, ComprimentoFibra cf, DiametroFibra df, Porosidade e);
     AreaTotalTransferencia(AreaSupFibra As, NumFibras n);
     void calcular(AreaSupFibra As, NumFibras n);
 };

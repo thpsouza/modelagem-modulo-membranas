@@ -55,12 +55,18 @@ void NumFibras::calcular(VolumeCubo Vc, VolumeFibra Vf, Porosidade e) {
 }
 
 
-
+AreaTotalTransferencia::AreaTotalTransferencia(ArestaCubo l, ComprimentoFibra cf, DiametroFibra df, Porosidade e) {
+    AreaSupFibra As{df, cf};
+    NumFibras n{l,cf,df,e};
+    calcular(As, n);
+}
 AreaTotalTransferencia::AreaTotalTransferencia(AreaSupFibra As, NumFibras n) {
     calcular(As, n);
 }
 void AreaTotalTransferencia::calcular(AreaSupFibra As, NumFibras n) {
     setValue(As.getValue() * n.getValue());
 }
+
+
 
 
