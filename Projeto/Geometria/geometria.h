@@ -15,9 +15,9 @@ class DiametroFibra : public Base {
 
 
 /// Espaços 2D e 3D
-class AreaCubo : public Base {
+class AreaFaceCubo : public Base {
 public:
-    AreaCubo(ArestaCubo l);
+    AreaFaceCubo(ArestaCubo l);
     void calcular(ArestaCubo l);
 };
 
@@ -45,17 +45,27 @@ public:
     void calcular(DiametroFibra df, ComprimentoFibra cf);
 };
 
-/// Propriedades do simbolo de volume
-class PorosidadeCubo : public Base {
+/// Propriedades do volume de controle
+class Porosidade : public Base {
 };
 
-class NumFibras {
-    int value;
+class NumFibras : public BaseInt {
 public:
-    NumFibras(VolumeCubo Vc, VolumeFibra Vf, PorosidadeCubo e);
-    void calcular(VolumeCubo Vc, VolumeFibra Vf, PorosidadeCubo e);
-    int getValue() const;
-    void setValue(int newValue);
+    NumFibras(ArestaCubo l, ComprimentoFibra cf, DiametroFibra df, Porosidade e);
+    NumFibras(VolumeCubo Vc, VolumeFibra Vf, Porosidade e);
+    void calcular(VolumeCubo Vc, VolumeFibra Vf, Porosidade e);
+};
+
+class AreaTotalTransferencia : public Base {
+public:
+    AreaTotalTransferencia(AreaSupFibra As, NumFibras n);
+    void calcular(AreaSupFibra As, NumFibras n);
+};
+
+
+/// Volume de controle
+class VolumeDeControle {
+
 };
 
 

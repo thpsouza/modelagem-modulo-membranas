@@ -15,11 +15,12 @@ void geometria() {
     DiametroFibra df{1.2};
 
     // 2D, 3D
+    AreaSupFibra As{df, cf};
     VolumeCubo Vc{l};
     VolumeFibra Vf{df, cf};
 
     // Porosidade
-    PorosidadeCubo porosidade{0.3};
+    Porosidade porosidade{0.3};
 
     // Numero de Fibras
     NumFibras nf{Vc, Vf, porosidade};
@@ -30,9 +31,13 @@ void geometria() {
             (cf.getValue() * M_PI * pow(df.getValue(), 2) / 4)
     );
 
+    // Area total de transferencia
+    AreaTotalTransferencia At{As, nf};
+
     cout << "Geometria:" << endl;
-    cout << "Numero de fibras = " + to_string(Nf) << endl;
-    cout << "Prova real: " << ((Nf == nf.getValue()) ? "True" : "False") << endl << endl;
+    cout << "Numero de fibras = " + string(nf) << endl;
+    cout << "Prova real: " << ((Nf == nf.getValue()) ? "True" : "False") << endl;
+    cout << "Area total de transferencia: " + string(At) << endl << endl;
 }
 
 void mistura() {

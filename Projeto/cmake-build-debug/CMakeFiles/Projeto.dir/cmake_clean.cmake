@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Projeto.dir/Geometria/geometria.cpp.obj.d"
   "CMakeFiles/Projeto.dir/Gerais/base.cpp.obj"
   "CMakeFiles/Projeto.dir/Gerais/base.cpp.obj.d"
+  "CMakeFiles/Projeto.dir/Gerais/gerais.cpp.obj"
+  "CMakeFiles/Projeto.dir/Gerais/gerais.cpp.obj.d"
   "CMakeFiles/Projeto.dir/Mistura/mistura.cpp.obj"
   "CMakeFiles/Projeto.dir/Mistura/mistura.cpp.obj.d"
   "CMakeFiles/Projeto.dir/main.cpp.obj"

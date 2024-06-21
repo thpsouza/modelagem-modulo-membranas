@@ -1,7 +1,6 @@
-CMakeFiles/Projeto.dir/Mistura/mistura.cpp.obj: \
-  C:/Users/EQ/Desktop/Thiago\ Souza/Projeto/Mistura/mistura.cpp \
-  C:/Users/EQ/Desktop/Thiago\ Souza/Projeto/Mistura/mistura.h \
-  C:/Users/EQ/Desktop/Thiago\ Souza/Projeto/Mistura/../Gerais/gerais.h \
+CMakeFiles/Projeto.dir/Gerais/gerais.cpp.obj: \
+  C:/Users/EQ/Desktop/Thiago\ Souza/Projeto/Gerais/gerais.cpp \
+  C:/Users/EQ/Desktop/Thiago\ Souza/Projeto/Gerais/gerais.h \
   C:/msys64/mingw64/include/c++/13.2.0/cmath \
   C:/msys64/mingw64/include/c++/13.2.0/bits/requires_hosted.h \
   C:/msys64/mingw64/include/c++/13.2.0/x86_64-w64-mingw32/bits/c++config.h \
@@ -177,4 +176,4 @@ CMakeFiles/Projeto.dir/Mistura/mistura.cpp.obj: \
   C:/msys64/mingw64/include/c++/13.2.0/bits/stl_heap.h \
   C:/msys64/mingw64/include/c++/13.2.0/bits/uniform_int_dist.h \
   C:/msys64/mingw64/include/c++/13.2.0/bits/stl_tempbuf.h \
-  C:/Users/EQ/Desktop/Thiago\ Souza/Projeto/Mistura/../Gerais/base.h
+  C:/Users/EQ/Desktop/Thiago\ Souza/Projeto/Gerais/base.h

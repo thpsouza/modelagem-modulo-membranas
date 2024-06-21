@@ -160,25 +160,6 @@ CMakeFiles/Projeto.dir/main.cpp.obj: \
   C:/msys64/mingw64/include/c++/13.2.0/bits/stl_vector.h \
   C:/msys64/mingw64/include/c++/13.2.0/bits/stl_bvector.h \
   C:/msys64/mingw64/include/c++/13.2.0/bits/vector.tcc \
-  C:/Users/EQ/Desktop/Thiago\ Souza/Projeto/Geometria/../Gerais/base.h \
-  C:/Users/EQ/Desktop/Thiago\ Souza/Projeto/Mistura/especies.h \
-  C:/Users/EQ/Desktop/Thiago\ Souza/Projeto/Mistura/mistura.h \
-  C:/Users/EQ/Desktop/Thiago\ Souza/Projeto/Mistura/../Gerais/gerais.h \
-  C:/Users/EQ/.vcpkg-clion/vcpkg/packages/matplotplusplus_x64-mingw-dynamic/include/matplot/matplot.h \
-  C:/Users/EQ/.vcpkg-clion/vcpkg/packages/matplotplusplus_x64-mingw-dynamic/include/matplot/util/common.h \
-  C:/Users/EQ/.vcpkg-clion/vcpkg/packages/matplotplusplus_x64-mingw-dynamic/include/matplot/detail/config.h \
-  C:/Users/EQ/.vcpkg-clion/vcpkg/packages/matplotplusplus_x64-mingw-dynamic/include/matplot/detail/exports.h \
-  C:/msys64/mingw64/include/c++/13.2.0/algorithm \
-  C:/msys64/mingw64/include/c++/13.2.0/bits/stl_algo.h \
-  C:/msys64/mingw64/include/c++/13.2.0/bits/algorithmfwd.h \
-  C:/msys64/mingw64/include/c++/13.2.0/bits/stl_heap.h \
-  C:/msys64/mingw64/include/c++/13.2.0/bits/uniform_int_dist.h \
-  C:/msys64/mingw64/include/c++/13.2.0/bits/stl_tempbuf.h \
-  C:/msys64/mingw64/include/c++/13.2.0/pstl/glue_algorithm_defs.h \
-  C:/msys64/mingw64/include/c++/13.2.0/pstl/execution_defs.h \
-  C:/msys64/mingw64/include/c++/13.2.0/complex \
-  C:/msys64/mingw64/include/c++/13.2.0/sstream \
-  C:/msys64/mingw64/include/c++/13.2.0/bits/sstream.tcc \
   C:/msys64/mingw64/include/c++/13.2.0/functional \
   C:/msys64/mingw64/include/c++/13.2.0/bits/std_function.h \
   C:/msys64/mingw64/include/c++/13.2.0/unordered_map \
@@ -191,303 +172,160 @@ CMakeFiles/Projeto.dir/main.cpp.obj: \
   C:/msys64/mingw64/include/c++/13.2.0/bits/erase_if.h \
   C:/msys64/mingw64/include/c++/13.2.0/array \
   C:/msys64/mingw64/include/c++/13.2.0/compare \
+  C:/msys64/mingw64/include/c++/13.2.0/bits/stl_algo.h \
+  C:/msys64/mingw64/include/c++/13.2.0/bits/algorithmfwd.h \
+  C:/msys64/mingw64/include/c++/13.2.0/bits/stl_heap.h \
+  C:/msys64/mingw64/include/c++/13.2.0/bits/uniform_int_dist.h \
+  C:/msys64/mingw64/include/c++/13.2.0/bits/stl_tempbuf.h \
+  C:/Users/EQ/Desktop/Thiago\ Souza/Projeto/Geometria/../Gerais/base.h \
+  C:/Users/EQ/Desktop/Thiago\ Souza/Projeto/Mistura/especies.h \
+  C:/Users/EQ/Desktop/Thiago\ Souza/Projeto/Mistura/mistura.h \
+  C:/Users/EQ/Desktop/Thiago\ Souza/Projeto/Mistura/../Gerais/gerais.h \
+  C:/Users/EQ/Desktop/Thiago\ Souza/Projeto/Gerais/gerais.h \
+  C:/Users/EQ/Desktop/Thiago\ Souza/Projeto/Gerais/matplotlibcpp.h \
+  C:/msys64/mingw64/include/c++/13.2.0/algorithm \
+  C:/msys64/mingw64/include/c++/13.2.0/pstl/glue_algorithm_defs.h \
+  C:/msys64/mingw64/include/c++/13.2.0/pstl/execution_defs.h \
+  C:/msys64/mingw64/include/c++/13.2.0/cstdint \
+  C:/msys64/mingw64/lib/clang/17/include/stdint.h \
+  C:/msys64/mingw64/include/stdint.h \
   C:/msys64/mingw64/include/c++/13.2.0/map \
   C:/msys64/mingw64/include/c++/13.2.0/bits/stl_tree.h \
   C:/msys64/mingw64/include/c++/13.2.0/bits/stl_map.h \
   C:/msys64/mingw64/include/c++/13.2.0/bits/stl_multimap.h \
-  C:/Users/EQ/.vcpkg-clion/vcpkg/packages/matplotplusplus_x64-mingw-dynamic/include/matplot/util/concepts.h \
-  C:/Users/EQ/.vcpkg-clion/vcpkg/packages/matplotplusplus_x64-mingw-dynamic/include/matplot/util/handle_types.h \
-  C:/msys64/mingw64/include/c++/13.2.0/memory \
-  C:/msys64/mingw64/include/c++/13.2.0/bits/stl_raw_storage_iter.h \
-  C:/msys64/mingw64/include/c++/13.2.0/bits/align.h \
-  C:/msys64/mingw64/lib/clang/17/include/stdint.h \
-  C:/msys64/mingw64/include/stdint.h \
-  C:/msys64/mingw64/include/c++/13.2.0/bits/unique_ptr.h \
-  C:/msys64/mingw64/include/c++/13.2.0/bits/shared_ptr.h \
-  C:/msys64/mingw64/include/c++/13.2.0/bits/shared_ptr_base.h \
-  C:/msys64/mingw64/include/c++/13.2.0/bits/allocated_ptr.h \
-  C:/msys64/mingw64/include/c++/13.2.0/ext/concurrence.h \
-  C:/msys64/mingw64/include/c++/13.2.0/bits/shared_ptr_atomic.h \
-  C:/msys64/mingw64/include/c++/13.2.0/bits/atomic_base.h \
-  C:/msys64/mingw64/include/c++/13.2.0/bits/atomic_lockfree_defines.h \
-  C:/msys64/mingw64/include/c++/13.2.0/backward/auto_ptr.h \
-  C:/msys64/mingw64/include/c++/13.2.0/pstl/glue_memory_defs.h \
-  C:/Users/EQ/.vcpkg-clion/vcpkg/packages/matplotplusplus_x64-mingw-dynamic/include/matplot/util/type_traits.h \
   C:/msys64/mingw64/include/c++/13.2.0/numeric \
   C:/msys64/mingw64/include/c++/13.2.0/bits/stl_numeric.h \
   C:/msys64/mingw64/include/c++/13.2.0/pstl/glue_numeric_defs.h \
-  C:/Users/EQ/.vcpkg-clion/vcpkg/packages/matplotplusplus_x64-mingw-dynamic/include/matplot/util/geodata.h \
-  C:/Users/EQ/.vcpkg-clion/vcpkg/packages/matplotplusplus_x64-mingw-dynamic/include/matplot/backend/backend_interface.h \
-  C:/Users/EQ/.vcpkg-clion/vcpkg/packages/matplotplusplus_x64-mingw-dynamic/include/matplot/backend/backend_registry.h \
-  C:/Users/EQ/.vcpkg-clion/vcpkg/packages/matplotplusplus_x64-mingw-dynamic/include/matplot/backend/gnuplot.h \
-  C:/msys64/mingw64/include/c++/13.2.0/chrono \
-  C:/msys64/mingw64/include/c++/13.2.0/bits/chrono.h \
-  C:/msys64/mingw64/include/c++/13.2.0/ratio \
-  C:/msys64/mingw64/include/c++/13.2.0/cstdint \
-  C:/msys64/mingw64/include/c++/13.2.0/ctime \
-  C:/msys64/mingw64/include/c++/13.2.0/bits/parse_numbers.h \
-  C:/Users/EQ/.vcpkg-clion/vcpkg/packages/matplotplusplus_x64-mingw-dynamic/include/matplot/core/axes_type.h \
-  C:/Users/EQ/.vcpkg-clion/vcpkg/packages/matplotplusplus_x64-mingw-dynamic/include/matplot/util/colors.h \
-  C:/Users/EQ/.vcpkg-clion/vcpkg/packages/matplotplusplus_x64-mingw-dynamic/include/matplot/util/keywords.h \
-  C:/Users/EQ/.vcpkg-clion/vcpkg/packages/matplotplusplus_x64-mingw-dynamic/include/matplot/core/axis_type.h \
-  C:/Users/EQ/.vcpkg-clion/vcpkg/packages/matplotplusplus_x64-mingw-dynamic/include/matplot/core/legend.h \
-  C:/Users/EQ/.vcpkg-clion/vcpkg/packages/matplotplusplus_x64-mingw-dynamic/include/matplot/core/line_spec.h \
-  C:/Users/EQ/.vcpkg-clion/vcpkg/packages/matplotplusplus_x64-mingw-dynamic/include/matplot/axes_objects/error_bar.h \
-  C:/Users/EQ/.vcpkg-clion/vcpkg/packages/matplotplusplus_x64-mingw-dynamic/include/matplot/axes_objects/line.h \
-  C:/Users/EQ/.vcpkg-clion/vcpkg/packages/matplotplusplus_x64-mingw-dynamic/include/matplot/core/axes_object.h \
-  C:/Users/EQ/.vcpkg-clion/vcpkg/packages/matplotplusplus_x64-mingw-dynamic/include/matplot/core/figure_type.h \
-  C:/msys64/mingw64/include/c++/13.2.0/fstream \
-  C:/msys64/mingw64/include/c++/13.2.0/bits/codecvt.h \
-  C:/msys64/mingw64/include/c++/13.2.0/x86_64-w64-mingw32/bits/basic_file.h \
-  C:/msys64/mingw64/include/c++/13.2.0/x86_64-w64-mingw32/bits/c++io.h \
-  C:/msys64/mingw64/include/c++/13.2.0/bits/fstream.tcc \
-  C:/Users/EQ/.vcpkg-clion/vcpkg/packages/matplotplusplus_x64-mingw-dynamic/include/matplot/util/popen.h \
-  C:/msys64/mingw64/include/windows.h \
-  C:/msys64/mingw64/include/sdkddkver.h \
-  C:/msys64/mingw64/include/excpt.h \
-  C:/msys64/mingw64/lib/clang/17/include/stdarg.h \
-  C:/msys64/mingw64/include/windef.h \
-  C:/msys64/mingw64/include/winapifamily.h \
-  C:/msys64/mingw64/include/minwindef.h \
-  C:/msys64/mingw64/include/specstrings.h \
-  C:/msys64/mingw64/include/sal.h \
-  C:/msys64/mingw64/include/concurrencysal.h \
-  C:/msys64/mingw64/include/driverspecs.h \
-  C:/msys64/mingw64/include/winnt.h \
-  C:/msys64/mingw64/include/_mingw_unicode.h \
-  C:/msys64/mingw64/include/apiset.h \
-  C:/msys64/mingw64/include/psdk_inc/intrin-impl.h \
-  C:/msys64/mingw64/include/basetsd.h \
-  C:/msys64/mingw64/include/guiddef.h C:/msys64/mingw64/include/string.h \
+  C:/msys64/mingw64/include/c++/13.2.0/sstream \
+  C:/msys64/mingw64/include/c++/13.2.0/bits/sstream.tcc \
+  C:/Users/EQ/AppData/Local/Programs/Python/Python312/include/Python.h \
+  C:/Users/EQ/AppData/Local/Programs/Python/Python312/include/patchlevel.h \
+  C:/Users/EQ/AppData/Local/Programs/Python/Python312/include/pyconfig.h \
+  C:/msys64/mingw64/include/io.h C:/msys64/mingw64/include/string.h \
   C:/msys64/mingw64/include/sec_api/string_s.h \
-  C:/msys64/mingw64/lib/clang/17/include/x86intrin.h \
-  C:/msys64/mingw64/lib/clang/17/include/ia32intrin.h \
-  C:/msys64/mingw64/lib/clang/17/include/immintrin.h \
-  C:/msys64/mingw64/lib/clang/17/include/x86gprintrin.h \
-  C:/msys64/mingw64/lib/clang/17/include/hresetintrin.h \
-  C:/msys64/mingw64/lib/clang/17/include/uintrintrin.h \
-  C:/msys64/mingw64/lib/clang/17/include/crc32intrin.h \
-  C:/msys64/mingw64/lib/clang/17/include/prfchiintrin.h \
-  C:/msys64/mingw64/lib/clang/17/include/raointintrin.h \
-  C:/msys64/mingw64/lib/clang/17/include/cmpccxaddintrin.h \
-  C:/msys64/mingw64/lib/clang/17/include/mmintrin.h \
-  C:/msys64/mingw64/lib/clang/17/include/xmmintrin.h \
-  C:/msys64/mingw64/lib/clang/17/include/emmintrin.h \
-  C:/msys64/mingw64/lib/clang/17/include/pmmintrin.h \
-  C:/msys64/mingw64/lib/clang/17/include/tmmintrin.h \
-  C:/msys64/mingw64/lib/clang/17/include/smmintrin.h \
-  C:/msys64/mingw64/lib/clang/17/include/popcntintrin.h \
-  C:/msys64/mingw64/lib/clang/17/include/wmmintrin.h \
-  C:/msys64/mingw64/lib/clang/17/include/__wmmintrin_aes.h \
-  C:/msys64/mingw64/lib/clang/17/include/__wmmintrin_pclmul.h \
-  C:/msys64/mingw64/lib/clang/17/include/clflushoptintrin.h \
-  C:/msys64/mingw64/lib/clang/17/include/clwbintrin.h \
-  C:/msys64/mingw64/lib/clang/17/include/avxintrin.h \
-  C:/msys64/mingw64/lib/clang/17/include/avx2intrin.h \
-  C:/msys64/mingw64/lib/clang/17/include/f16cintrin.h \
-  C:/msys64/mingw64/lib/clang/17/include/bmiintrin.h \
-  C:/msys64/mingw64/lib/clang/17/include/bmi2intrin.h \
-  C:/msys64/mingw64/lib/clang/17/include/lzcntintrin.h \
-  C:/msys64/mingw64/lib/clang/17/include/fmaintrin.h \
-  C:/msys64/mingw64/lib/clang/17/include/avx512fintrin.h \
-  C:/msys64/mingw64/lib/clang/17/include/avx512vlintrin.h \
-  C:/msys64/mingw64/lib/clang/17/include/avx512bwintrin.h \
-  C:/msys64/mingw64/lib/clang/17/include/avx512bitalgintrin.h \
-  C:/msys64/mingw64/lib/clang/17/include/avx512cdintrin.h \
-  C:/msys64/mingw64/lib/clang/17/include/avx512vpopcntdqintrin.h \
-  C:/msys64/mingw64/lib/clang/17/include/avx512vpopcntdqvlintrin.h \
-  C:/msys64/mingw64/lib/clang/17/include/avx512vnniintrin.h \
-  C:/msys64/mingw64/lib/clang/17/include/avx512vlvnniintrin.h \
-  C:/msys64/mingw64/lib/clang/17/include/avxvnniintrin.h \
-  C:/msys64/mingw64/lib/clang/17/include/avx512dqintrin.h \
-  C:/msys64/mingw64/lib/clang/17/include/avx512vlbitalgintrin.h \
-  C:/msys64/mingw64/lib/clang/17/include/avx512vlbwintrin.h \
-  C:/msys64/mingw64/lib/clang/17/include/avx512vlcdintrin.h \
-  C:/msys64/mingw64/lib/clang/17/include/avx512vldqintrin.h \
-  C:/msys64/mingw64/lib/clang/17/include/avx512erintrin.h \
-  C:/msys64/mingw64/lib/clang/17/include/avx512ifmaintrin.h \
-  C:/msys64/mingw64/lib/clang/17/include/avx512ifmavlintrin.h \
-  C:/msys64/mingw64/lib/clang/17/include/avxifmaintrin.h \
-  C:/msys64/mingw64/lib/clang/17/include/avx512vbmiintrin.h \
-  C:/msys64/mingw64/lib/clang/17/include/avx512vbmivlintrin.h \
-  C:/msys64/mingw64/lib/clang/17/include/avx512vbmi2intrin.h \
-  C:/msys64/mingw64/lib/clang/17/include/avx512vlvbmi2intrin.h \
-  C:/msys64/mingw64/lib/clang/17/include/avx512pfintrin.h \
-  C:/msys64/mingw64/lib/clang/17/include/avx512fp16intrin.h \
-  C:/msys64/mingw64/lib/clang/17/include/avx512vlfp16intrin.h \
-  C:/msys64/mingw64/lib/clang/17/include/avx512bf16intrin.h \
-  C:/msys64/mingw64/lib/clang/17/include/avx512vlbf16intrin.h \
-  C:/msys64/mingw64/lib/clang/17/include/pkuintrin.h \
-  C:/msys64/mingw64/lib/clang/17/include/vpclmulqdqintrin.h \
-  C:/msys64/mingw64/lib/clang/17/include/vaesintrin.h \
-  C:/msys64/mingw64/lib/clang/17/include/gfniintrin.h \
-  C:/msys64/mingw64/lib/clang/17/include/avxvnniint8intrin.h \
-  C:/msys64/mingw64/lib/clang/17/include/avxneconvertintrin.h \
-  C:/msys64/mingw64/lib/clang/17/include/sha512intrin.h \
-  C:/msys64/mingw64/lib/clang/17/include/sm3intrin.h \
-  C:/msys64/mingw64/lib/clang/17/include/sm4intrin.h \
-  C:/msys64/mingw64/lib/clang/17/include/avxvnniint16intrin.h \
-  C:/msys64/mingw64/lib/clang/17/include/rtmintrin.h \
-  C:/msys64/mingw64/lib/clang/17/include/xtestintrin.h \
-  C:/msys64/mingw64/lib/clang/17/include/shaintrin.h \
-  C:/msys64/mingw64/lib/clang/17/include/fxsrintrin.h \
-  C:/msys64/mingw64/lib/clang/17/include/xsaveintrin.h \
-  C:/msys64/mingw64/lib/clang/17/include/xsaveoptintrin.h \
-  C:/msys64/mingw64/lib/clang/17/include/xsavecintrin.h \
-  C:/msys64/mingw64/lib/clang/17/include/xsavesintrin.h \
-  C:/msys64/mingw64/lib/clang/17/include/cetintrin.h \
-  C:/msys64/mingw64/lib/clang/17/include/adxintrin.h \
-  C:/msys64/mingw64/lib/clang/17/include/rdseedintrin.h \
-  C:/msys64/mingw64/lib/clang/17/include/wbnoinvdintrin.h \
-  C:/msys64/mingw64/lib/clang/17/include/cldemoteintrin.h \
-  C:/msys64/mingw64/lib/clang/17/include/waitpkgintrin.h \
-  C:/msys64/mingw64/lib/clang/17/include/movdirintrin.h \
-  C:/msys64/mingw64/lib/clang/17/include/pconfigintrin.h \
-  C:/msys64/mingw64/lib/clang/17/include/sgxintrin.h \
-  C:/msys64/mingw64/lib/clang/17/include/ptwriteintrin.h \
-  C:/msys64/mingw64/lib/clang/17/include/invpcidintrin.h \
-  C:/msys64/mingw64/lib/clang/17/include/amxfp16intrin.h \
-  C:/msys64/mingw64/lib/clang/17/include/keylockerintrin.h \
-  C:/msys64/mingw64/lib/clang/17/include/amxintrin.h \
-  C:/msys64/mingw64/lib/clang/17/include/amxcomplexintrin.h \
-  C:/msys64/mingw64/lib/clang/17/include/avx512vp2intersectintrin.h \
-  C:/msys64/mingw64/lib/clang/17/include/avx512vlvp2intersectintrin.h \
-  C:/msys64/mingw64/lib/clang/17/include/enqcmdintrin.h \
-  C:/msys64/mingw64/lib/clang/17/include/serializeintrin.h \
-  C:/msys64/mingw64/lib/clang/17/include/tsxldtrkintrin.h \
-  C:/msys64/mingw64/lib/clang/17/include/mm3dnow.h \
-  C:/msys64/mingw64/lib/clang/17/include/prfchwintrin.h \
-  C:/msys64/mingw64/lib/clang/17/include/ammintrin.h \
-  C:/msys64/mingw64/lib/clang/17/include/fma4intrin.h \
-  C:/msys64/mingw64/lib/clang/17/include/xopintrin.h \
-  C:/msys64/mingw64/lib/clang/17/include/tbmintrin.h \
-  C:/msys64/mingw64/lib/clang/17/include/lwpintrin.h \
-  C:/msys64/mingw64/lib/clang/17/include/mwaitxintrin.h \
-  C:/msys64/mingw64/lib/clang/17/include/clzerointrin.h \
-  C:/msys64/mingw64/lib/clang/17/include/rdpruintrin.h \
-  C:/msys64/mingw64/include/pshpack4.h \
-  C:/msys64/mingw64/include/poppack.h \
-  C:/msys64/mingw64/include/pshpack2.h \
-  C:/msys64/mingw64/include/pshpack8.h \
-  C:/msys64/mingw64/include/ktmtypes.h \
-  C:/msys64/mingw64/include/winbase.h \
-  C:/msys64/mingw64/include/apisetcconv.h \
-  C:/msys64/mingw64/include/minwinbase.h \
-  C:/msys64/mingw64/include/bemapiset.h \
-  C:/msys64/mingw64/include/debugapi.h \
-  C:/msys64/mingw64/include/errhandlingapi.h \
-  C:/msys64/mingw64/include/fibersapi.h \
-  C:/msys64/mingw64/include/fileapi.h \
-  C:/msys64/mingw64/include/handleapi.h \
-  C:/msys64/mingw64/include/heapapi.h \
-  C:/msys64/mingw64/include/ioapiset.h \
-  C:/msys64/mingw64/include/interlockedapi.h \
-  C:/msys64/mingw64/include/jobapi.h \
-  C:/msys64/mingw64/include/libloaderapi.h \
-  C:/msys64/mingw64/include/memoryapi.h \
-  C:/msys64/mingw64/include/namedpipeapi.h \
-  C:/msys64/mingw64/include/namespaceapi.h \
-  C:/msys64/mingw64/include/processenv.h \
-  C:/msys64/mingw64/include/processthreadsapi.h \
-  C:/msys64/mingw64/include/processtopologyapi.h \
-  C:/msys64/mingw64/include/profileapi.h \
-  C:/msys64/mingw64/include/realtimeapiset.h \
-  C:/msys64/mingw64/include/securityappcontainer.h \
-  C:/msys64/mingw64/include/securitybaseapi.h \
-  C:/msys64/mingw64/include/synchapi.h \
-  C:/msys64/mingw64/include/sysinfoapi.h \
-  C:/msys64/mingw64/include/systemtopologyapi.h \
-  C:/msys64/mingw64/include/threadpoolapiset.h \
-  C:/msys64/mingw64/include/threadpoollegacyapiset.h \
-  C:/msys64/mingw64/include/utilapiset.h \
-  C:/msys64/mingw64/include/wow64apiset.h \
-  C:/msys64/mingw64/include/winerror.h \
-  C:/msys64/mingw64/include/fltwinerror.h \
-  C:/msys64/mingw64/include/timezoneapi.h \
-  C:/msys64/mingw64/include/wingdi.h \
-  C:/msys64/mingw64/include/pshpack1.h \
-  C:/msys64/mingw64/include/winuser.h C:/msys64/mingw64/include/tvout.h \
-  C:/msys64/mingw64/include/winnls.h \
-  C:/msys64/mingw64/include/datetimeapi.h \
-  C:/msys64/mingw64/include/stringapiset.h \
-  C:/msys64/mingw64/include/wincon.h C:/msys64/mingw64/include/winver.h \
-  C:/msys64/mingw64/include/winreg.h C:/msys64/mingw64/include/reason.h \
-  C:/msys64/mingw64/include/winnetwk.h C:/msys64/mingw64/include/wnnc.h \
-  C:/msys64/mingw64/include/virtdisk.h C:/msys64/mingw64/include/cderr.h \
-  C:/msys64/mingw64/include/dde.h C:/msys64/mingw64/include/ddeml.h \
-  C:/msys64/mingw64/include/dlgs.h C:/msys64/mingw64/include/lzexpand.h \
-  C:/msys64/mingw64/include/mmsystem.h \
-  C:/msys64/mingw64/include/mmsyscom.h \
-  C:/msys64/mingw64/include/mciapi.h \
-  C:/msys64/mingw64/include/mmiscapi.h \
-  C:/msys64/mingw64/include/mmiscapi2.h \
-  C:/msys64/mingw64/include/playsoundapi.h \
-  C:/msys64/mingw64/include/mmeapi.h C:/msys64/mingw64/include/timeapi.h \
-  C:/msys64/mingw64/include/joystickapi.h \
-  C:/msys64/mingw64/include/nb30.h C:/msys64/mingw64/include/rpc.h \
-  C:/msys64/mingw64/include/rpcdce.h C:/msys64/mingw64/include/rpcdcep.h \
-  C:/msys64/mingw64/include/rpcnsi.h \
-  C:/msys64/mingw64/include/rpcnterr.h \
-  C:/msys64/mingw64/include/rpcasync.h \
-  C:/msys64/mingw64/include/shellapi.h \
-  C:/msys64/mingw64/include/winperf.h \
-  C:/msys64/mingw64/include/winsock.h \
-  C:/msys64/mingw64/include/_bsd_types.h \
-  C:/msys64/mingw64/include/inaddr.h \
-  C:/msys64/mingw64/include/psdk_inc/_socket_types.h \
-  C:/msys64/mingw64/include/psdk_inc/_fd_types.h \
-  C:/msys64/mingw64/include/psdk_inc/_ip_types.h \
-  C:/msys64/mingw64/include/psdk_inc/_ip_mreq1.h \
-  C:/msys64/mingw64/include/psdk_inc/_wsadata.h \
-  C:/msys64/mingw64/include/psdk_inc/_xmitfile.h \
-  C:/msys64/mingw64/include/psdk_inc/_wsa_errnos.h \
-  C:/msys64/mingw64/include/wincrypt.h \
-  C:/msys64/mingw64/include/bcrypt.h C:/msys64/mingw64/include/ncrypt.h \
-  C:/msys64/mingw64/include/dpapi.h C:/msys64/mingw64/include/winefs.h \
-  C:/msys64/mingw64/include/winscard.h \
-  C:/msys64/mingw64/include/wtypes.h C:/msys64/mingw64/include/rpcndr.h \
-  C:/msys64/mingw64/include/rpcnsip.h C:/msys64/mingw64/include/rpcsal.h \
-  C:/msys64/mingw64/include/ole2.h C:/msys64/mingw64/include/objbase.h \
-  C:/msys64/mingw64/include/combaseapi.h \
-  C:/msys64/mingw64/include/wtypesbase.h \
-  C:/msys64/mingw64/include/unknwnbase.h \
-  C:/msys64/mingw64/include/objidlbase.h \
-  C:/msys64/mingw64/include/cguid.h C:/msys64/mingw64/include/objidl.h \
-  C:/msys64/mingw64/include/unknwn.h C:/msys64/mingw64/include/urlmon.h \
-  C:/msys64/mingw64/include/oleidl.h \
-  C:/msys64/mingw64/include/servprov.h C:/msys64/mingw64/include/msxml.h \
-  C:/msys64/mingw64/include/oaidl.h C:/msys64/mingw64/include/propidl.h \
-  C:/msys64/mingw64/include/oleauto.h \
-  C:/msys64/mingw64/include/winioctl.h \
-  C:/msys64/mingw64/include/winsmcrd.h \
-  C:/msys64/mingw64/include/winspool.h C:/msys64/mingw64/include/prsht.h \
-  C:/msys64/mingw64/include/commdlg.h \
-  C:/msys64/mingw64/include/stralign.h \
-  C:/msys64/mingw64/include/sec_api/stralign_s.h \
-  C:/msys64/mingw64/include/winsvc.h C:/msys64/mingw64/include/mcx.h \
-  C:/msys64/mingw64/include/imm.h \
-  C:/Users/EQ/.vcpkg-clion/vcpkg/packages/matplotplusplus_x64-mingw-dynamic/include/matplot/axes_objects/function_line.h \
-  C:/Users/EQ/.vcpkg-clion/vcpkg/packages/matplotplusplus_x64-mingw-dynamic/include/matplot/axes_objects/histogram.h \
-  C:/msys64/mingw64/include/c++/13.2.0/optional \
-  C:/Users/EQ/.vcpkg-clion/vcpkg/packages/matplotplusplus_x64-mingw-dynamic/include/matplot/axes_objects/bars.h \
-  C:/Users/EQ/.vcpkg-clion/vcpkg/packages/matplotplusplus_x64-mingw-dynamic/include/matplot/axes_objects/box_chart.h \
-  C:/Users/EQ/.vcpkg-clion/vcpkg/packages/matplotplusplus_x64-mingw-dynamic/include/matplot/axes_objects/circles.h \
-  C:/Users/EQ/.vcpkg-clion/vcpkg/packages/matplotplusplus_x64-mingw-dynamic/include/matplot/axes_objects/contours.h \
-  C:/Users/EQ/.vcpkg-clion/vcpkg/packages/matplotplusplus_x64-mingw-dynamic/include/matplot/util/contourc.h \
-  C:/msys64/mingw64/include/c++/13.2.0/list \
-  C:/msys64/mingw64/include/c++/13.2.0/bits/stl_list.h \
-  C:/msys64/mingw64/include/c++/13.2.0/bits/list.tcc \
-  C:/Users/EQ/.vcpkg-clion/vcpkg/packages/matplotplusplus_x64-mingw-dynamic/include/matplot/axes_objects/filled_area.h \
-  C:/Users/EQ/.vcpkg-clion/vcpkg/packages/matplotplusplus_x64-mingw-dynamic/include/matplot/axes_objects/labels.h \
-  C:/Users/EQ/.vcpkg-clion/vcpkg/packages/matplotplusplus_x64-mingw-dynamic/include/matplot/axes_objects/matrix.h \
-  C:/Users/EQ/.vcpkg-clion/vcpkg/packages/matplotplusplus_x64-mingw-dynamic/include/matplot/axes_objects/network.h \
-  C:/Users/EQ/.vcpkg-clion/vcpkg/packages/matplotplusplus_x64-mingw-dynamic/include/matplot/axes_objects/parallel_lines.h \
-  C:/Users/EQ/.vcpkg-clion/vcpkg/packages/matplotplusplus_x64-mingw-dynamic/include/matplot/axes_objects/stair.h \
-  C:/Users/EQ/.vcpkg-clion/vcpkg/packages/matplotplusplus_x64-mingw-dynamic/include/matplot/axes_objects/string_function.h \
-  C:/Users/EQ/.vcpkg-clion/vcpkg/packages/matplotplusplus_x64-mingw-dynamic/include/matplot/axes_objects/surface.h \
-  C:/Users/EQ/.vcpkg-clion/vcpkg/packages/matplotplusplus_x64-mingw-dynamic/include/matplot/axes_objects/vectors.h \
-  C:/Users/EQ/.vcpkg-clion/vcpkg/packages/matplotplusplus_x64-mingw-dynamic/include/matplot/freestanding/axes_functions.h \
-  C:/Users/EQ/.vcpkg-clion/vcpkg/packages/matplotplusplus_x64-mingw-dynamic/include/matplot/freestanding/axes_lim.h \
-  C:/Users/EQ/.vcpkg-clion/vcpkg/packages/matplotplusplus_x64-mingw-dynamic/include/matplot/freestanding/histcounts.h \
-  C:/Users/EQ/.vcpkg-clion/vcpkg/packages/matplotplusplus_x64-mingw-dynamic/include/matplot/freestanding/plot.h \
-  C:/Users/EQ/.vcpkg-clion/vcpkg/packages/matplotplusplus_x64-mingw-dynamic/include/matplot/core/figure_registry.h
+  C:/Users/EQ/AppData/Local/Programs/Python/Python312/include/pymacconfig.h \
+  C:/msys64/mingw64/include/assert.h \
+  C:/Users/EQ/AppData/Local/Programs/Python/Python312/include/pyport.h \
+  C:/msys64/mingw64/lib/clang/17/include/inttypes.h \
+  C:/msys64/mingw64/include/inttypes.h \
+  C:/msys64/mingw64/include/c++/13.2.0/math.h \
+  C:/msys64/mingw64/include/sys/stat.h \
+  C:/Users/EQ/AppData/Local/Programs/Python/Python312/include/exports.h \
+  C:/Users/EQ/AppData/Local/Programs/Python/Python312/include/pymacro.h \
+  C:/Users/EQ/AppData/Local/Programs/Python/Python312/include/pymath.h \
+  C:/Users/EQ/AppData/Local/Programs/Python/Python312/include/pymem.h \
+  C:/Users/EQ/AppData/Local/Programs/Python/Python312/include/cpython/pymem.h \
+  C:/Users/EQ/AppData/Local/Programs/Python/Python312/include/pytypedefs.h \
+  C:/Users/EQ/AppData/Local/Programs/Python/Python312/include/pybuffer.h \
+  C:/Users/EQ/AppData/Local/Programs/Python/Python312/include/object.h \
+  C:/Users/EQ/AppData/Local/Programs/Python/Python312/include/pystats.h \
+  C:/Users/EQ/AppData/Local/Programs/Python/Python312/include/cpython/object.h \
+  C:/Users/EQ/AppData/Local/Programs/Python/Python312/include/objimpl.h \
+  C:/Users/EQ/AppData/Local/Programs/Python/Python312/include/cpython/objimpl.h \
+  C:/Users/EQ/AppData/Local/Programs/Python/Python312/include/typeslots.h \
+  C:/Users/EQ/AppData/Local/Programs/Python/Python312/include/pyhash.h \
+  C:/Users/EQ/AppData/Local/Programs/Python/Python312/include/cpython/pydebug.h \
+  C:/Users/EQ/AppData/Local/Programs/Python/Python312/include/bytearrayobject.h \
+  C:/Users/EQ/AppData/Local/Programs/Python/Python312/include/cpython/bytearrayobject.h \
+  C:/Users/EQ/AppData/Local/Programs/Python/Python312/include/bytesobject.h \
+  C:/msys64/mingw64/lib/clang/17/include/stdarg.h \
+  C:/Users/EQ/AppData/Local/Programs/Python/Python312/include/cpython/bytesobject.h \
+  C:/Users/EQ/AppData/Local/Programs/Python/Python312/include/unicodeobject.h \
+  C:/Users/EQ/AppData/Local/Programs/Python/Python312/include/cpython/unicodeobject.h \
+  C:/Users/EQ/AppData/Local/Programs/Python/Python312/include/cpython/initconfig.h \
+  C:/Users/EQ/AppData/Local/Programs/Python/Python312/include/pystate.h \
+  C:/Users/EQ/AppData/Local/Programs/Python/Python312/include/cpython/pystate.h \
+  C:/Users/EQ/AppData/Local/Programs/Python/Python312/include/pyerrors.h \
+  C:/Users/EQ/AppData/Local/Programs/Python/Python312/include/cpython/pyerrors.h \
+  C:/Users/EQ/AppData/Local/Programs/Python/Python312/include/longobject.h \
+  C:/Users/EQ/AppData/Local/Programs/Python/Python312/include/cpython/longobject.h \
+  C:/Users/EQ/AppData/Local/Programs/Python/Python312/include/cpython/longintrepr.h \
+  C:/Users/EQ/AppData/Local/Programs/Python/Python312/include/boolobject.h \
+  C:/Users/EQ/AppData/Local/Programs/Python/Python312/include/floatobject.h \
+  C:/Users/EQ/AppData/Local/Programs/Python/Python312/include/cpython/floatobject.h \
+  C:/Users/EQ/AppData/Local/Programs/Python/Python312/include/complexobject.h \
+  C:/Users/EQ/AppData/Local/Programs/Python/Python312/include/cpython/complexobject.h \
+  C:/Users/EQ/AppData/Local/Programs/Python/Python312/include/rangeobject.h \
+  C:/Users/EQ/AppData/Local/Programs/Python/Python312/include/memoryobject.h \
+  C:/Users/EQ/AppData/Local/Programs/Python/Python312/include/cpython/memoryobject.h \
+  C:/Users/EQ/AppData/Local/Programs/Python/Python312/include/tupleobject.h \
+  C:/Users/EQ/AppData/Local/Programs/Python/Python312/include/cpython/tupleobject.h \
+  C:/Users/EQ/AppData/Local/Programs/Python/Python312/include/listobject.h \
+  C:/Users/EQ/AppData/Local/Programs/Python/Python312/include/cpython/listobject.h \
+  C:/Users/EQ/AppData/Local/Programs/Python/Python312/include/dictobject.h \
+  C:/Users/EQ/AppData/Local/Programs/Python/Python312/include/cpython/dictobject.h \
+  C:/Users/EQ/AppData/Local/Programs/Python/Python312/include/cpython/odictobject.h \
+  C:/Users/EQ/AppData/Local/Programs/Python/Python312/include/enumobject.h \
+  C:/Users/EQ/AppData/Local/Programs/Python/Python312/include/setobject.h \
+  C:/Users/EQ/AppData/Local/Programs/Python/Python312/include/cpython/setobject.h \
+  C:/Users/EQ/AppData/Local/Programs/Python/Python312/include/methodobject.h \
+  C:/Users/EQ/AppData/Local/Programs/Python/Python312/include/cpython/methodobject.h \
+  C:/Users/EQ/AppData/Local/Programs/Python/Python312/include/moduleobject.h \
+  C:/Users/EQ/AppData/Local/Programs/Python/Python312/include/cpython/funcobject.h \
+  C:/Users/EQ/AppData/Local/Programs/Python/Python312/include/cpython/classobject.h \
+  C:/Users/EQ/AppData/Local/Programs/Python/Python312/include/fileobject.h \
+  C:/Users/EQ/AppData/Local/Programs/Python/Python312/include/cpython/fileobject.h \
+  C:/Users/EQ/AppData/Local/Programs/Python/Python312/include/pycapsule.h \
+  C:/Users/EQ/AppData/Local/Programs/Python/Python312/include/cpython/code.h \
+  C:/Users/EQ/AppData/Local/Programs/Python/Python312/include/pyframe.h \
+  C:/Users/EQ/AppData/Local/Programs/Python/Python312/include/cpython/pyframe.h \
+  C:/Users/EQ/AppData/Local/Programs/Python/Python312/include/traceback.h \
+  C:/Users/EQ/AppData/Local/Programs/Python/Python312/include/cpython/traceback.h \
+  C:/Users/EQ/AppData/Local/Programs/Python/Python312/include/sliceobject.h \
+  C:/Users/EQ/AppData/Local/Programs/Python/Python312/include/cpython/cellobject.h \
+  C:/Users/EQ/AppData/Local/Programs/Python/Python312/include/iterobject.h \
+  C:/Users/EQ/AppData/Local/Programs/Python/Python312/include/cpython/genobject.h \
+  C:/Users/EQ/AppData/Local/Programs/Python/Python312/include/descrobject.h \
+  C:/Users/EQ/AppData/Local/Programs/Python/Python312/include/cpython/descrobject.h \
+  C:/Users/EQ/AppData/Local/Programs/Python/Python312/include/genericaliasobject.h \
+  C:/Users/EQ/AppData/Local/Programs/Python/Python312/include/warnings.h \
+  C:/Users/EQ/AppData/Local/Programs/Python/Python312/include/cpython/warnings.h \
+  C:/Users/EQ/AppData/Local/Programs/Python/Python312/include/weakrefobject.h \
+  C:/Users/EQ/AppData/Local/Programs/Python/Python312/include/cpython/weakrefobject.h \
+  C:/Users/EQ/AppData/Local/Programs/Python/Python312/include/structseq.h \
+  C:/Users/EQ/AppData/Local/Programs/Python/Python312/include/cpython/picklebufobject.h \
+  C:/Users/EQ/AppData/Local/Programs/Python/Python312/include/cpython/pytime.h \
+  C:/Users/EQ/AppData/Local/Programs/Python/Python312/include/codecs.h \
+  C:/Users/EQ/AppData/Local/Programs/Python/Python312/include/pythread.h \
+  C:/Users/EQ/AppData/Local/Programs/Python/Python312/include/cpython/pythread.h \
+  C:/Users/EQ/AppData/Local/Programs/Python/Python312/include/cpython/context.h \
+  C:/Users/EQ/AppData/Local/Programs/Python/Python312/include/modsupport.h \
+  C:/Users/EQ/AppData/Local/Programs/Python/Python312/include/cpython/modsupport.h \
+  C:/Users/EQ/AppData/Local/Programs/Python/Python312/include/compile.h \
+  C:/Users/EQ/AppData/Local/Programs/Python/Python312/include/cpython/compile.h \
+  C:/Users/EQ/AppData/Local/Programs/Python/Python312/include/pythonrun.h \
+  C:/Users/EQ/AppData/Local/Programs/Python/Python312/include/cpython/pythonrun.h \
+  C:/Users/EQ/AppData/Local/Programs/Python/Python312/include/pylifecycle.h \
+  C:/Users/EQ/AppData/Local/Programs/Python/Python312/include/cpython/pylifecycle.h \
+  C:/Users/EQ/AppData/Local/Programs/Python/Python312/include/ceval.h \
+  C:/Users/EQ/AppData/Local/Programs/Python/Python312/include/cpython/ceval.h \
+  C:/Users/EQ/AppData/Local/Programs/Python/Python312/include/sysmodule.h \
+  C:/Users/EQ/AppData/Local/Programs/Python/Python312/include/cpython/sysmodule.h \
+  C:/Users/EQ/AppData/Local/Programs/Python/Python312/include/osmodule.h \
+  C:/Users/EQ/AppData/Local/Programs/Python/Python312/include/intrcheck.h \
+  C:/Users/EQ/AppData/Local/Programs/Python/Python312/include/import.h \
+  C:/Users/EQ/AppData/Local/Programs/Python/Python312/include/cpython/import.h \
+  C:/Users/EQ/AppData/Local/Programs/Python/Python312/include/abstract.h \
+  C:/Users/EQ/AppData/Local/Programs/Python/Python312/include/cpython/abstract.h \
+  C:/Users/EQ/AppData/Local/Programs/Python/Python312/include/bltinmodule.h \
+  C:/Users/EQ/AppData/Local/Programs/Python/Python312/include/cpython/pyctype.h \
+  C:/Users/EQ/AppData/Local/Programs/Python/Python312/include/pystrtod.h \
+  C:/Users/EQ/AppData/Local/Programs/Python/Python312/include/pystrcmp.h \
+  C:/Users/EQ/AppData/Local/Programs/Python/Python312/include/fileutils.h \
+  C:/Users/EQ/AppData/Local/Programs/Python/Python312/include/cpython/fileutils.h \
+  C:/Users/EQ/AppData/Local/Programs/Python/Python312/include/cpython/pyfpe.h \
+  C:/Users/EQ/AppData/Local/Programs/Python/Python312/include/tracemalloc.h \
+  C:/Users/EQ/AppData/Local/Programs/Python/Python312/Lib/site-packages/numpy/_core/include/numpy/arrayobject.h \
+  C:/Users/EQ/AppData/Local/Programs/Python/Python312/Lib/site-packages/numpy/_core/include/numpy/ndarrayobject.h \
+  C:/Users/EQ/AppData/Local/Programs/Python/Python312/Lib/site-packages/numpy/_core/include/numpy/ndarraytypes.h \
+  C:/Users/EQ/AppData/Local/Programs/Python/Python312/Lib/site-packages/numpy/_core/include/numpy/npy_common.h \
+  C:/Users/EQ/AppData/Local/Programs/Python/Python312/Lib/site-packages/numpy/_core/include/numpy/numpyconfig.h \
+  C:/Users/EQ/AppData/Local/Programs/Python/Python312/Lib/site-packages/numpy/_core/include/numpy/_numpyconfig.h \
+  C:/Users/EQ/AppData/Local/Programs/Python/Python312/Lib/site-packages/numpy/_core/include/numpy/npy_endian.h \
+  C:/Users/EQ/AppData/Local/Programs/Python/Python312/Lib/site-packages/numpy/_core/include/numpy/npy_cpu.h \
+  C:/Users/EQ/AppData/Local/Programs/Python/Python312/Lib/site-packages/numpy/_core/include/numpy/utils.h \
+  C:/Users/EQ/AppData/Local/Programs/Python/Python312/Lib/site-packages/numpy/_core/include/numpy/_neighborhood_iterator_imp.h \
+  C:/Users/EQ/AppData/Local/Programs/Python/Python312/Lib/site-packages/numpy/_core/include/numpy/dtype_api.h \
+  C:/Users/EQ/AppData/Local/Programs/Python/Python312/Lib/site-packages/numpy/_core/include/numpy/__multiarray_api.h \
+  C:/Users/EQ/AppData/Local/Programs/Python/Python312/Lib/site-packages/numpy/_core/include/numpy/_public_dtype_api_table.h \
+  C:/Users/EQ/AppData/Local/Programs/Python/Python312/Lib/site-packages/numpy/_core/include/numpy/npy_2_compat.h

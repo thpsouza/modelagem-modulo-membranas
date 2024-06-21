@@ -128,12 +128,28 @@ CMakeFiles/Projeto.dir/Mistura/mistura.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Projeto.dir/Mistura/mistura.cpp.s"
 	C:\msys64\mingw64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\EQ\Desktop\Thiago Souza\Projeto\Mistura\mistura.cpp" -o CMakeFiles\Projeto.dir\Mistura\mistura.cpp.s
 
+CMakeFiles/Projeto.dir/Gerais/gerais.cpp.obj: CMakeFiles/Projeto.dir/flags.make
+CMakeFiles/Projeto.dir/Gerais/gerais.cpp.obj: CMakeFiles/Projeto.dir/includes_CXX.rsp
+CMakeFiles/Projeto.dir/Gerais/gerais.cpp.obj: C:/Users/EQ/Desktop/Thiago\ Souza/Projeto/Gerais/gerais.cpp
+CMakeFiles/Projeto.dir/Gerais/gerais.cpp.obj: CMakeFiles/Projeto.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\EQ\Desktop\Thiago Souza\Projeto\cmake-build-debug-event-trace\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Projeto.dir/Gerais/gerais.cpp.obj"
+	C:\msys64\mingw64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Projeto.dir/Gerais/gerais.cpp.obj -MF CMakeFiles\Projeto.dir\Gerais\gerais.cpp.obj.d -o CMakeFiles\Projeto.dir\Gerais\gerais.cpp.obj -c "C:\Users\EQ\Desktop\Thiago Souza\Projeto\Gerais\gerais.cpp"
+
+CMakeFiles/Projeto.dir/Gerais/gerais.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Projeto.dir/Gerais/gerais.cpp.i"
+	C:\msys64\mingw64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\EQ\Desktop\Thiago Souza\Projeto\Gerais\gerais.cpp" > CMakeFiles\Projeto.dir\Gerais\gerais.cpp.i
+
+CMakeFiles/Projeto.dir/Gerais/gerais.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Projeto.dir/Gerais/gerais.cpp.s"
+	C:\msys64\mingw64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\EQ\Desktop\Thiago Souza\Projeto\Gerais\gerais.cpp" -o CMakeFiles\Projeto.dir\Gerais\gerais.cpp.s
+
 # Object files for target Projeto
 Projeto_OBJECTS = \
 "CMakeFiles/Projeto.dir/main.cpp.obj" \
 "CMakeFiles/Projeto.dir/Geometria/geometria.cpp.obj" \
 "CMakeFiles/Projeto.dir/Gerais/base.cpp.obj" \
-"CMakeFiles/Projeto.dir/Mistura/mistura.cpp.obj"
+"CMakeFiles/Projeto.dir/Mistura/mistura.cpp.obj" \
+"CMakeFiles/Projeto.dir/Gerais/gerais.cpp.obj"
 
 # External object files for target Projeto
 Projeto_EXTERNAL_OBJECTS =
@@ -142,13 +158,13 @@ Projeto.exe: CMakeFiles/Projeto.dir/main.cpp.obj
 Projeto.exe: CMakeFiles/Projeto.dir/Geometria/geometria.cpp.obj
 Projeto.exe: CMakeFiles/Projeto.dir/Gerais/base.cpp.obj
 Projeto.exe: CMakeFiles/Projeto.dir/Mistura/mistura.cpp.obj
+Projeto.exe: CMakeFiles/Projeto.dir/Gerais/gerais.cpp.obj
 Projeto.exe: CMakeFiles/Projeto.dir/build.make
-Projeto.exe: C:/Users/EQ/.vcpkg-clion/vcpkg/packages/matplotplusplus_x64-mingw-dynamic/debug/lib/libmatplot.a
-Projeto.exe: C:/Users/EQ/.vcpkg-clion/vcpkg/packages/nodesoup_x64-mingw-dynamic/debug/lib/libnodesoup.a
+Projeto.exe: C:/Users/EQ/AppData/Local/Programs/Python/Python312/libs/python312.lib
 Projeto.exe: CMakeFiles/Projeto.dir/linkLibs.rsp
 Projeto.exe: CMakeFiles/Projeto.dir/objects1.rsp
 Projeto.exe: CMakeFiles/Projeto.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="C:\Users\EQ\Desktop\Thiago Souza\Projeto\cmake-build-debug-event-trace\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable Projeto.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="C:\Users\EQ\Desktop\Thiago Souza\Projeto\cmake-build-debug-event-trace\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable Projeto.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Projeto.dir\link.txt --verbose=$(VERBOSE)
 	C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy Bypass -file C:/Users/EQ/.vcpkg-clion/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary "C:/Users/EQ/Desktop/Thiago Souza/Projeto/cmake-build-debug-event-trace/Projeto.exe" -installedDir C:/Users/EQ/.vcpkg-clion/vcpkg/installed/x64-windows/debug/bin -OutVariable out
 

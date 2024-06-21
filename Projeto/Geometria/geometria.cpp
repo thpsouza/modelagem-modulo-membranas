@@ -1,10 +1,10 @@
 #include "geometria.h"
 
 /// Espaços 2D e 3D
-AreaCubo::AreaCubo(ArestaCubo l) {
+AreaFaceCubo::AreaFaceCubo(ArestaCubo l) {
     calcular(l);
 }
-void AreaCubo::calcular(ArestaCubo l) {
+void AreaFaceCubo::calcular(ArestaCubo l) {
     setValue(pow(l.getValue(), 2));
 }
 
@@ -41,18 +41,26 @@ void VolumeFibra::calcular(DiametroFibra df, ComprimentoFibra cf) {
 }
 
 
-/// Propriedades do simbolo de volume
-NumFibras::NumFibras(VolumeCubo Vc, VolumeFibra Vf, PorosidadeCubo e) {
+/// Propriedades do volume de controle
+NumFibras::NumFibras(ArestaCubo l, ComprimentoFibra cf, DiametroFibra df, Porosidade e) {
+    VolumeCubo Vc{l};
+    VolumeFibra Vf{df, cf};
     calcular(Vc, Vf, e);
 }
-void NumFibras::calcular(VolumeCubo Vc, VolumeFibra Vf, PorosidadeCubo e) {
-    value = (int) round(Vc.getValue() * (1 - e.getValue()) / Vf.getValue());
+NumFibras::NumFibras(VolumeCubo Vc, VolumeFibra Vf, Porosidade e) {
+    calcular(Vc, Vf, e);
 }
-int NumFibras::getValue() const {
-    return value;
+void NumFibras::calcular(VolumeCubo Vc, VolumeFibra Vf, Porosidade e) {
+    setValue((int) round(Vc.getValue() * (1 - e.getValue()) / Vf.getValue()));
 }
-void NumFibras::setValue(int newValue) {
-    value = newValue;
+
+
+
+AreaTotalTransferencia::AreaTotalTransferencia(AreaSupFibra As, NumFibras n) {
+    calcular(As, n);
+}
+void AreaTotalTransferencia::calcular(AreaSupFibra As, NumFibras n) {
+    setValue(As.getValue() * n.getValue());
 }
 
 

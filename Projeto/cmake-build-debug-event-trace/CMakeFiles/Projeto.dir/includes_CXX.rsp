@@ -1,1 +1,1 @@
--isystem "C:/Users/EQ/.vcpkg-clion/vcpkg/packages/matplotplusplus_x64-mingw-dynamic/include"
+-isystem "C:/Users/EQ/AppData/Local/Programs/Python/Python312/Lib/site-packages/numpy/_core/include" -isystem C:/Users/EQ/AppData/Local/Programs/Python/Python312/include

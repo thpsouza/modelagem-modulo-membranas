@@ -176,6 +176,30 @@ Gerais/base.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Projeto.dir\build.make CMakeFiles/Projeto.dir/Gerais/base.cpp.s
 .PHONY : Gerais/base.cpp.s
 
+Gerais/gerais.obj: Gerais/gerais.cpp.obj
+.PHONY : Gerais/gerais.obj
+
+# target to build an object file
+Gerais/gerais.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Projeto.dir\build.make CMakeFiles/Projeto.dir/Gerais/gerais.cpp.obj
+.PHONY : Gerais/gerais.cpp.obj
+
+Gerais/gerais.i: Gerais/gerais.cpp.i
+.PHONY : Gerais/gerais.i
+
+# target to preprocess a source file
+Gerais/gerais.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Projeto.dir\build.make CMakeFiles/Projeto.dir/Gerais/gerais.cpp.i
+.PHONY : Gerais/gerais.cpp.i
+
+Gerais/gerais.s: Gerais/gerais.cpp.s
+.PHONY : Gerais/gerais.s
+
+# target to generate assembly for a file
+Gerais/gerais.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Projeto.dir\build.make CMakeFiles/Projeto.dir/Gerais/gerais.cpp.s
+.PHONY : Gerais/gerais.cpp.s
+
 Mistura/mistura.obj: Mistura/mistura.cpp.obj
 .PHONY : Mistura/mistura.obj
 
@@ -239,6 +263,9 @@ help:
 	@echo ... Gerais/base.obj
 	@echo ... Gerais/base.i
 	@echo ... Gerais/base.s
+	@echo ... Gerais/gerais.obj
+	@echo ... Gerais/gerais.i
+	@echo ... Gerais/gerais.s
 	@echo ... Mistura/mistura.obj
 	@echo ... Mistura/mistura.i
 	@echo ... Mistura/mistura.s

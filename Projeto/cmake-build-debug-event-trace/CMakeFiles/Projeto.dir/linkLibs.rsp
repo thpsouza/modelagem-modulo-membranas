@@ -1,1 +1,1 @@
- "C:/Users/EQ/.vcpkg-clion/vcpkg/packages/matplotplusplus_x64-mingw-dynamic/debug/lib/libmatplot.a" -lgdi32 "C:/Users/EQ/.vcpkg-clion/vcpkg/packages/nodesoup_x64-mingw-dynamic/debug/lib/libnodesoup.a" -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+ C:/Users/EQ/AppData/Local/Programs/Python/Python312/libs/python312.lib -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 

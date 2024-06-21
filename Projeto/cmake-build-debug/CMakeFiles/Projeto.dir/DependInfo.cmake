@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/EQ/Desktop/Thiago Souza/Projeto/Geometria/geometria.cpp" "CMakeFiles/Projeto.dir/Geometria/geometria.cpp.obj" "gcc" "CMakeFiles/Projeto.dir/Geometria/geometria.cpp.obj.d"
   "C:/Users/EQ/Desktop/Thiago Souza/Projeto/Gerais/base.cpp" "CMakeFiles/Projeto.dir/Gerais/base.cpp.obj" "gcc" "CMakeFiles/Projeto.dir/Gerais/base.cpp.obj.d"
+  "C:/Users/EQ/Desktop/Thiago Souza/Projeto/Gerais/gerais.cpp" "CMakeFiles/Projeto.dir/Gerais/gerais.cpp.obj" "gcc" "CMakeFiles/Projeto.dir/Gerais/gerais.cpp.obj.d"
   "C:/Users/EQ/Desktop/Thiago Souza/Projeto/Mistura/mistura.cpp" "CMakeFiles/Projeto.dir/Mistura/mistura.cpp.obj" "gcc" "CMakeFiles/Projeto.dir/Mistura/mistura.cpp.obj.d"
   "C:/Users/EQ/Desktop/Thiago Souza/Projeto/main.cpp" "CMakeFiles/Projeto.dir/main.cpp.obj" "gcc" "CMakeFiles/Projeto.dir/main.cpp.obj.d"
   )
