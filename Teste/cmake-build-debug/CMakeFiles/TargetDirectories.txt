@@ -1,3 +1,0 @@
-C:/Users/EQ/Desktop/Thiago Souza/Teste/cmake-build-debug/CMakeFiles/Teste.dir
-C:/Users/EQ/Desktop/Thiago Souza/Teste/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/EQ/Desktop/Thiago Souza/Teste/cmake-build-debug/CMakeFiles/rebuild_cache.dir
